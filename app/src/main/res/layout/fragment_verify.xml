@@ -29,7 +29,7 @@
             style="@style/customEditText"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="Mobile No."
+            android:hint="Enter OTP"
 
             android:inputType="phone"
             android:textColorHint="@color/textColorPrimary"

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E69E1124">
+    android:background="@drawable/background">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -36,10 +36,10 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:text="LET'S START"
         android:textColor="@color/textColorPrimary"
         android:textSize="22sp"
-        android:layout_marginTop="16dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,11 +47,11 @@
 
 
     <com.google.android.material.chip.Chip
-        android:layout_marginTop="48dp"
         android:id="@+id/chip4"
         style="@style/customChip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="Male"
         android:textAllCaps="true"
         app:layout_constraintEnd_toStartOf="@+id/chip5"
@@ -63,8 +63,8 @@
         android:id="@+id/chip5"
         style="@style/customChip"
         android:layout_width="wrap_content"
-        android:layout_marginTop="48dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         android:text="Female"
         android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,8 +77,8 @@
         style="@style/customChip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Others"
         android:layout_marginTop="16dp"
+        android:text="Others"
         android:textAllCaps="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,9 +109,9 @@
         app:layout_constraintTop_toBottomOf="@+id/view2" />
 
     <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/countryDropDown"
         style="@style/customDropdownInputLayout"
         android:layout_width="match_parent"
-        android:id="@+id/countryDropDown"
         android:layout_height="wrap_content"
         android:ellipsize="start"
         android:gravity="center_horizontal"
@@ -133,16 +133,5 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.44" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="240dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_srhr_final_logo_eps"
-        tools:ignore="VectorDrawableCompat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

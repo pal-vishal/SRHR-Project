@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#E69E1124"
+        android:background="@drawable/background"
         tools:context=".LoginSignUpFragment">
 
         <androidx.constraintlayout.widget.Guideline
@@ -206,16 +206,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="240dp"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/textView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_srhr_final_logo_eps"
-            tools:ignore="VectorDrawableCompat" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>
