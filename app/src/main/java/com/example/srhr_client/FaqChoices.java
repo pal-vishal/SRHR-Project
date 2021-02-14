@@ -21,7 +21,7 @@ public class FaqChoices extends AppCompatActivity {
         rv = findViewById(R.id.rv_faq);
         categories = new ArrayList<>();
         rv.setLayoutManager(new LinearLayoutManager(this));
-        faqAdapter = new FaqAdapter();
+        faqAdapter = new FaqAdapter(categories);
         rv.setAdapter(faqAdapter);
 
         categories.add("ABORTION");

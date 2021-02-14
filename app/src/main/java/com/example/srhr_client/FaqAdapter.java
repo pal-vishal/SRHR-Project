@@ -11,7 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class FaqAdapter extends RecyclerView.Adapter<FaqAdapter.ViewHolder> {
-    List<String>faqlist;
+    List<String>categories;
+
+    public FaqAdapter(List<String> categories) {
+        this.categories = categories;
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -24,13 +29,13 @@ public class FaqAdapter extends RecyclerView.Adapter<FaqAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.button.setText(faqlist.get(position));
+        holder.button.setText(categories.get(position));
 
     }
 
     @Override
     public int getItemCount() {
-        return faqlist.size();
+        return categories.size();
     }
 
     class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
