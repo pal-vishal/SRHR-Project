@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puberty">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Puberty"
+        android:textColorLink="#000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:scrollbars="vertical"
+        android:text="Professor James M. Tanner, a child development expert, was the first to identify the visible stages of puberty. Today, these stages are known as the Tanner stages or, more appropriately, sexual maturity ratings. They serve as a general guide to physical development, although each person has a different puberty timetable.  Girls Puberty usually starts between ages 9 and 11. The first signs of breasts, called “buds,” start to form under the nipple. They may be itchy or tender, which is normal.  It’s common for breasts to be different sizes and grow at different rates. So, it’s normal if one bud appears larger than the other. The darker area around the nipple (areola) will also expand. In addition, the uterus begins to get larger, and small amounts of pubic hair start growing on the lips of the vagina. Girls with higher body mass index experience an earlier onset of puberty. BOYS In boys, puberty usually starts around age 11. The testicles and skin around the testicles (scrotum) begin to get bigger. Also, early stages of pubic hair forms on the base of the penis. "
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+</androidx.constraintlayout.widget.ConstraintLayout>
