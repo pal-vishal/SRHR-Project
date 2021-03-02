@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TermsConditions"></activity>
-
+        <activity android:name=".safesex"></activity>
+        <activity android:name=".TermsConditions" />
         <activity android:name=".Videos" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -19,7 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>

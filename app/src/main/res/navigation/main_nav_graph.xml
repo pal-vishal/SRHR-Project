@@ -64,5 +64,13 @@
         <action
             android:id="@+id/action_lastScreen_to_faqChoices3"
             app:destination="@id/faqChoices3" />
+        <action
+            android:id="@+id/action_lastScreen_to_termsConditions2"
+            app:destination="@id/termsConditions2" />
     </fragment>
+    <activity
+        android:id="@+id/termsConditions2"
+        android:name="com.example.srhr_client.TermsConditions"
+        android:label="activity_terms_conditions"
+        tools:layout="@layout/activity_terms_conditions" />
 </navigation>

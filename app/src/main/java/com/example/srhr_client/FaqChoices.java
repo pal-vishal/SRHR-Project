@@ -38,7 +38,9 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         categories.add("RAPE");
         categories.add("SAFE SEX & STD");
         categories.add("PUBERTY");
-       return rootView;
+        categories.add("SETTINGS");
+
+        return rootView;
     }
 
 
@@ -53,6 +55,8 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
             case 4:
                 navController.navigate(R.id.action_faqChoices3_to_puberty);
                 break;
+            case 5:
+
 
         }
     }
