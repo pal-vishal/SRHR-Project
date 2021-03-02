@@ -128,6 +128,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8">
 
         <AutoCompleteTextView
+            android:id="@+id/countriesList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="none" />

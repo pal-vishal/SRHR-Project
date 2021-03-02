@@ -46,13 +46,15 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
             findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
         }
         binding.button.setOnClickListener {
+            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
+            /*
             auth.signInWithEmailAndPassword(
                 binding.textEmail.text.toString(),
                 binding.editPassword.text.toString()
             )
                 .addOnCompleteListener { task: Task<AuthResult> ->
                     if (task.isSuccessful) {
-                        findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
+
                     } else {
                         Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
                         Toast.makeText(
@@ -67,6 +69,8 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
              //  val action = LoginSignUpFragmentDirections.actionLoginSignUpFragmentToPersonalInfoFragment(binding.editTextMobile.text.toString())
              //   findNavController().navigate(action)
             }
+
+             */
 
 
 

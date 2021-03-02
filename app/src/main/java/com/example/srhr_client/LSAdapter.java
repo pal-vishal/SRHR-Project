@@ -11,10 +11,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class LSAdapter extends RecyclerView.Adapter<LSAdapter.ViewHolder> {
-    List<String>options;
+    List<ButtonNames> options;
+    RecyclerViewClick recyclerViewClick;
 
-    public LSAdapter(List<String> options) {
+    public LSAdapter(List<ButtonNames> options,RecyclerViewClick recyclerViewClick) {
         this.options = options;
+        this.recyclerViewClick = recyclerViewClick;
     }
 
     @NonNull
@@ -29,7 +31,8 @@ public class LSAdapter extends RecyclerView.Adapter<LSAdapter.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull LSAdapter.ViewHolder holder, int position) {
-        holder.button.setText(options.get(position));
+        String name = options.get(position).getName();
+        holder.button.setText(name);
     }
 
     @Override
@@ -43,7 +46,19 @@ public class LSAdapter extends RecyclerView.Adapter<LSAdapter.ViewHolder> {
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            button = itemView.findViewById(R.id.item_btn);
+            button = itemView.findViewById(R.id.button3);
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    recyclerViewClick.onItemClick(getAdapterPosition());
+
+                }
+            });
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                }
+            });
         }
     }
 }

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_nav_graph"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
     app:startDestination="@id/loginSignUpFragment">
 
     <fragment
@@ -19,6 +21,12 @@
         android:name="com.example.srhr_client.PersonalInfoFragment"
         android:label="PersonalInfoFragment" >
 
+        <action
+            android:id="@+id/action_personalInfoFragment_to_faqChoices3"
+            app:destination="@id/faqChoices3" />
+        <action
+            android:id="@+id/action_personalInfoFragment_to_lastScreen"
+            app:destination="@id/lastScreen" />
     </fragment>
     <fragment
         android:id="@+id/otpFragment"
@@ -27,5 +35,34 @@
         <argument
             android:name="mobileNo"
             app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/faqChoices3"
+        android:name="com.example.srhr_client.FaqChoices"
+        android:label="FaqChoices" >
+        <action
+            android:id="@+id/action_faqChoices3_to_rape"
+            app:destination="@id/rape" />
+        <action
+            android:id="@+id/action_faqChoices3_to_puberty"
+            app:destination="@id/puberty" />
+    </fragment>
+    <fragment
+        android:id="@+id/rape"
+        android:name="com.example.srhr_client.Rape"
+        android:label="Rape" />
+    <fragment
+        android:id="@+id/puberty"
+        android:name="com.example.srhr_client.Puberty"
+        android:label="activity_puberty"
+        tools:layout="@layout/activity_puberty" />
+    <fragment
+        android:id="@+id/lastScreen"
+        android:name="com.example.srhr_client.LastScreen"
+        android:label="activity_faq_choices"
+        tools:layout="@layout/activity_faq_choices" >
+        <action
+            android:id="@+id/action_lastScreen_to_faqChoices3"
+            app:destination="@id/faqChoices3" />
     </fragment>
 </navigation>
