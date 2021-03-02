@@ -1,5 +1,6 @@
 package com.example.srhr_client;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,15 +10,18 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
 
+import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+
+import com.alimuzaffar.lib.pin.PinEntryEditText;
 import com.google.android.gms.common.internal.Constants;
-import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
-
+import com.google.android.gms.tasks.TaskExecutors;
 import java.util.concurrent.TimeUnit;
 
 public class OtpFragment extends Fragment {
@@ -25,7 +29,7 @@ public class OtpFragment extends Fragment {
     private FirebaseAuth mAuth;
     private String phoneNumber;
 
-    private TextInputEditText pinEntryEditText;
+    private PinEntryEditText pinEntryEditText;
     private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallBack = new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
         @Override
         public void onVerificationCompleted(@NonNull PhoneAuthCredential phoneAuthCredential) {
@@ -74,15 +78,15 @@ public class OtpFragment extends Fragment {
         pinEntryEditText = view.findViewById(R.id.editTextOtp);
         final Bundle bundle = getArguments();
         if (bundle != null) {
-            //  phoneNumber = bundle.getString(Constants.PHONE_NUMBER);
+            phoneNumber = OtpFragmentArgs.fromBundle(getArguments()).getMobileNo();  //bundle.getString(Constants.PHONE_NUMBER);
             String phn_no = "+" + 91 + phoneNumber;
             sendVerificationCode(phn_no);
         }
         verify.setOnClickListener(v -> {
-            //    pinEntryEditText.setError(false);
+                pinEntryEditText.setError(false);
             String code = pinEntryEditText.getText().toString();
             if (code.isEmpty() || code.length() < 6) {
-                //     pinEntryEditText.setError(true);
+                   pinEntryEditText.setError(true);
                 pinEntryEditText.requestFocus();
                 return;
             }
@@ -93,16 +97,13 @@ public class OtpFragment extends Fragment {
 
     private void sendVerificationCode(String number) {
 
-        /*
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
                 number,
                 60,
                 TimeUnit.SECONDS,
-                TaskExecutors.MAIN_THREAD,
+                getActivity(),
                 mCallBack
         );
-
-         */
 
     }
 
@@ -110,18 +111,8 @@ public class OtpFragment extends Fragment {
         mAuth.signInWithCredential(credential)
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                        /*
-                        RegisterEmployerFragment registerEmployerFragment = new RegisterEmployerFragment();
-                        Bundle bundle = new Bundle();
-                        bundle.putString(Constants.PHONE_NUMBER, phoneNumber);
-                        registerEmployerFragment.setArguments(bundle);
-                        FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                        fragmentManager.popBackStack(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
-                        FragmentTransaction transaction = fragmentManager.beginTransaction();
-                        transaction.replace(R.id.container, registerEmployerFragment);
-                        transaction.commit();
-
-                         */
+                        NavController navController = Navigation.findNavController(getActivity(), R.id.fragment);
+                          navController.navigate(R.id.action_otpFragment_to_personalInfoFragment);
                     }
                 });
     }

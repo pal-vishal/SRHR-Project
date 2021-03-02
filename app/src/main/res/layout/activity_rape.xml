@@ -27,7 +27,7 @@
         android:layout_marginTop="16dp"
         android:paddingLeft="15dp"
         android:scrollbars="vertical"
-        android:text="@string/rape"
+        android:text=""
         android:textColor="#fff"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"

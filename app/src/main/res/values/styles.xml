@@ -31,7 +31,7 @@
         <item name="endIconTint">@color/textColorPrimary</item>
     </style>
 
-    <style name="customChip" parent="Widget.MaterialComponents.Chip.Choice">
+    <style name="customChip" parent="Widget.MaterialComponents.Chip.Action">
         <item name="chipIconTint">@color/shrine_pink_900</item>
         <item name="chipBackgroundColor">@color/shrine_pink_900</item>
         <item name="android:textColor">@color/textColorPrimary</item>

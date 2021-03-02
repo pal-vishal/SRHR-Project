@@ -20,6 +20,7 @@ public class Rape extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
       rootView = inflater.inflate(R.layout.activity_rape,container,false);
+      /*
       pdfView = rootView.findViewById(R.id.pdf_rape);
       pdfView.fromAsset("rape")
               .enableSwipe(true)
@@ -32,6 +33,8 @@ public class Rape extends Fragment {
               .enableAntialiasing(true)
               .spacing(0)
               .load();
+
+       */
       return rootView;
     }
 

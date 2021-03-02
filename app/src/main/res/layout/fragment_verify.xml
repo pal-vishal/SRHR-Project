@@ -24,28 +24,24 @@
             android:orientation="horizontal"
             app:layout_constraintGuide_percent="0.70" />
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/editTextTextEmailAddress"
-            style="@style/customEditText"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:hint="Enter OTP"
 
-            android:inputType="phone"
-            android:textColorHint="@color/textColorPrimary"
-            app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        <com.alimuzaffar.lib.pin.PinEntryEditText
+            android:id="@+id/editTextOtp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#9E1124"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editTextOtp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#9E1124"
-                android:ems="10" />
-        </com.google.android.material.textfield.TextInputLayout>
+            app:layout_constraintTop_toBottomOf="@id/guideline" />
 
 
         <TextView
@@ -63,9 +59,6 @@
             app:layout_constraintTop_toTopOf="@+id/guideline" />
 
 
-
-
-
         <Button
             android:id="@+id/buttonNext"
             android:layout_width="wrap_content"
@@ -75,9 +68,9 @@
             android:text="Next"
             android:textColor="@color/textColorPrimary"
             app:cornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/guideline2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/guideline2" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView4"

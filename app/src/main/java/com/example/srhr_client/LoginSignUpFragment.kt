@@ -15,11 +15,15 @@ import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.fragment_login_signup.*
 
 class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
 
     private lateinit var binding: FragmentLoginSignupBinding
     private lateinit var auth: FirebaseAuth
+    private lateinit var email: String
+    private lateinit var password: String
+    private lateinit var mobile: String
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -30,6 +34,7 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
         auth = Firebase.auth
         return binding.root
     }
+
 
     override fun onStart() {
         super.onStart()
@@ -42,18 +47,18 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        email = textEmail.text.toString()
+        password = editPassword.text.toString()
+        mobile = editTextMobile.text.toString()
+        Log.e("strings", "null" + email + password + mobile)
         binding.button2.setOnClickListener {
-            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
-        }
-        binding.button.setOnClickListener {
-            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
-            /*
-            auth.signInWithEmailAndPassword(
+            auth.createUserWithEmailAndPassword(
                 binding.textEmail.text.toString(),
                 binding.editPassword.text.toString()
             )
                 .addOnCompleteListener { task: Task<AuthResult> ->
                     if (task.isSuccessful) {
+                        findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
 
                     } else {
                         Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
@@ -65,14 +70,32 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
                     }
                 }
 
-            if (binding.editTextMobile.text.toString()!=null){
-             //  val action = LoginSignUpFragmentDirections.actionLoginSignUpFragmentToPersonalInfoFragment(binding.editTextMobile.text.toString())
-             //   findNavController().navigate(action)
+        }
+        binding.button.setOnClickListener {
+
+
+            if (!textEmail.text.toString().isNullOrEmpty() && !editPassword.text.toString().isNullOrEmpty()) {
+                auth.signInWithEmailAndPassword(
+                    binding.textEmail.text.toString(),
+                    binding.editPassword.text.toString()
+                )
+                    .addOnCompleteListener { task: Task<AuthResult> ->
+                        if (task.isSuccessful) {
+                            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
+                        } else {
+                            Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
+                            Toast.makeText(
+                                context, "Authentication failed.",
+                                Toast.LENGTH_SHORT
+                            ).show()
+
+                        }
+                    }
+            }else if(!editTextMobile.text.toString().isNullOrEmpty()) {
+                val action =
+                    LoginSignUpFragmentDirections.actionLoginSignUpFragmentToOtpFragment(binding.editTextMobile.text.toString())
+                findNavController().navigate(action)
             }
-
-             */
-
-
 
         }
     }

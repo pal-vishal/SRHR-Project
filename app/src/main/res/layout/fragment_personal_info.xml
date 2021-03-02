@@ -47,7 +47,7 @@
 
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/chip4"
+        android:id="@+id/chipMale"
         style="@style/customChip"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
@@ -63,7 +63,7 @@
         app:layout_constraintTop_toBottomOf="@id/guideline3" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/chip5"
+        android:id="@+id/chipFemale"
         style="@style/customChip"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
@@ -77,7 +77,7 @@
         app:layout_constraintTop_toBottomOf="@id/guideline3" />
 
     <com.google.android.material.chip.Chip
-        android:id="@+id/chip6"
+        android:id="@+id/chipOthers"
         style="@style/customChip"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
         app:chipCornerRadius="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chip4" />
+        app:layout_constraintTop_toBottomOf="@+id/chipMale" />
 
 
     <View
@@ -100,10 +100,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chip6" />
+        app:layout_constraintTop_toBottomOf="@+id/chipOthers" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textViewBirthday"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -125,7 +125,7 @@
         android:textColorHint="@color/textColorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8">
+        app:layout_constraintTop_toBottomOf="@+id/textViewBirthday">
 
         <AutoCompleteTextView
             android:id="@+id/countriesList"

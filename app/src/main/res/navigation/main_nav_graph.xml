@@ -35,6 +35,9 @@
         <argument
             android:name="mobileNo"
             app:argType="string" />
+        <action
+            android:id="@+id/action_otpFragment_to_personalInfoFragment"
+            app:destination="@id/personalInfoFragment" />
     </fragment>
     <fragment
         android:id="@+id/faqChoices3"

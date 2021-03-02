@@ -26,7 +26,7 @@
         android:layout_marginTop="16dp"
         android:paddingLeft="10dp"
         android:paddingRight="2dp"
-        android:text="@string/safesex"
+        android:text=""
         android:textColor="#fff"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
