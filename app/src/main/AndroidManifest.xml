@@ -10,18 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".TermsConditions"></activity>
-        <activity android:name=".Rape" />
-        <activity android:name=".Puberty" />
-        <activity android:name=".LastScreen" />
+
         <activity android:name=".Videos" />
-        <activity android:name=".FaqChoices">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>

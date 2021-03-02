@@ -12,9 +12,11 @@ import java.util.List;
 
 public class FaqAdapter extends RecyclerView.Adapter<FaqAdapter.ViewHolder> {
     List<String>categories;
+    RecyclerViewClick recyclerViewClick;
 
-    public FaqAdapter(List<String> categories) {
+    public FaqAdapter(List<String> categories,RecyclerViewClick recyclerViewClick) {
         this.categories = categories;
+        this.recyclerViewClick = recyclerViewClick;
     }
 
     @NonNull
@@ -45,7 +47,18 @@ public class FaqAdapter extends RecyclerView.Adapter<FaqAdapter.ViewHolder> {
             super(itemView);
 
             button = itemView.findViewById(R.id.item_btn);
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    recyclerViewClick.onItemClick(getAdapterPosition());
+                }
+            });
             itemView.setOnClickListener(this);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                }
+            });
         }
 
         @Override
