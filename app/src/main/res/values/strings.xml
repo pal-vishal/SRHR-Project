@@ -19,7 +19,7 @@ Along the same lines, Action India cannot always take responsibility for the way
 
 With respect to Action India’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third parties to provide information to us so that we can make it available to you. Action India accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.
 
-At some point, we may wish to update the app. The app is currently available on Android & iOS – the requirements for both systems(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. Action India does not promise that it will always update the app so that it is relevant to you and/or works with the Android & iOS version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
+At some point, we may wish to update the app. The app is currently available on Android and iOS – the requirements for both systems(and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download the updates if you want to keep using the app. Action India does not promise that it will always update the app so that it is relevant to you and/or works with the Android &amp; iOS version that you have installed on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.
 
 Changes to This Terms and Conditions
 
@@ -31,6 +31,49 @@ Contact Us
 
 If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at actionindia1976@gmail.com.
 </string>
+
+    <string name="rape">
+        Q1. What is Rape?\n\n
+Typically, rape is an expression of aggression, anger, or need for power; psychologically, it is more violent than sexual. Non genital or genital injury occurs in about 50% of rapes of females.
+\n\nQ2. What is the difference between Sexual Assualt/ Harassment and Rape?\n
+Sexual Assault- Sexual Assault refers to sexual contact or a behaviour that occurs without consent of the victim. Some forms of sexual assault include:
+Attempted rape
+Groping or unwanted sexual touching
+Forcing a victim to perform sexual acts, such as oral sex or penetrating the perpetrator’s body.
+
+Sexual Harassment:
+
+Rape: Rape is a form of sexual assault, but not all sexual assault is rape. The term rape is often used as a legal definition to specifically include sexual penetration without consent.
+
+\n\nQ3. What are different types of Rape?
+Following are different types of Rape:
+Minor Rapes\n
+Gang Rapes\n
+Marital Rapes\n
+Incest\n
+Revenge Rape\n
+Custodial Rape\n
+Rape under the false pretext of marriage\n\n
+
+Minor or statutory rape
+Statutory rape is a crime that involves sexual contact with a person who is under an age specified by law, commonly referred to as the “age of consent.” Most states no longer refer to this crime as statutory rape. The legal term for the crime varies from state to state and includes sexual intercourse with a minor, sexual assault of a child, criminal sexual penetration of a minor or a child under a certain age, and sexual abuse of a minor. Statutory rape is based on the notion that a person under a certain age cannot consent to sexual contact or activity because he or she lacks the maturity or judgement necessary to make a knowing choice about sexual activity. Even when no force is involved and the sex appears consensual, the act of having sex with a person under the age of consent is a crime solely because of that person’s age. (Crimiminal Defence Lawyer , 2018 )
+Gang Rapes- IPC 376 D defines gang rape as “Where a woman is raped by one or more persons constituting a group or acting in furtherance of a common intention, each of those persons shall be deemed to committed the offence of rape” Gang Rapes are the rapes that involves a group of men, this act is pre- meditated and pre-empted. When a group of men have sexual intercourse that is non-consensual (not agreed upon), or they force another person to have sex against her will.
+Marital Rapes- Intimate partner rape. A rape that is non- consensual, (not agreed upon), or if a husband or a partner (living in Domestic Relationship) forces wife or the other partner to have sex against her will it is termed as marital rape.  Rape includes intercourse in the vagina, anus, or mouth. It is unlawful sexual activity and usually sexual intercourse carried out forcibly or under threat of injury against a person\'s will or with a person who is beneath a certain age or incapable of valid consent because of mental illness, mental deficiency, intoxication, unconsciousness, or deception. Marital rape is a non- criminalised crime in India. India is one of the thirty-six countries that still have not criminalized marital rape.
+Incest- Incest is sexual intercourse between closely related persons. The crime of sexual intercourse, cohabitation, or marriage between persons within the degrees of consanguinity or affinity wherein marriage is legally forbidden. The prevalence of incest cases is reported to vary between 5% and 62% according to culture, the source of the report, and geographic location.
+Revenge Rape- Payback rape", also called "revenge rape", is a form of rape specific to certain culture. It consists of the rape of a female, usually by a group of several males, as revenge for acts committed by members of her family, such as her father or brothers. The rape is meant to humiliate and bring shame upon the father or brothers, as punishment for their prior behaviour towards the perpetrators.  Payback rape is sometimes connected to tribal fighting.
+Custodial Rape- Custodial rape is one of the most heinous and serious crimes against women and one of the categories of rape which involves the abuse of power and authority, by people responsible to protect and promote the rights of women. At present, the greatest threats faced by women are from those who are supposed to protect them. Police and custodial rape are the most prevalent forms of aggravated rape in India. Custodial rapes are heinous crimes as they reflect betrayal of custodial trust by a public servant against the helpless citizen.
+Rape under false pretext of Marriage- Hindu marriage joins two individuals for life, so that they can pursue dharma (duty), artha (possessions), and kama (physical desires). It is a union of two individuals as husband and wife, and is recognized by law. In Hinduism, marriage is followed by traditional rituals for consummation.
+
+The consent for sexual intercourse obtained by a person by giving false promise of marriage would not excuse him from rape charges. Whenever the accused gives promise to the victim to marry her, never had any intention to marry and the victim gave the consent for sexual intercourse on such an assurance by the accused that he would marry her, such a consent can be said to be a consent obtained on a misconception of fact as per Section 90 of the Indian Panel Code, and, in such a case, such a consent would not excuse the offender and such an offender can be said to have committed the rape as defined under Section 375 of the Indian Panel Code, and can be convicted for the offence under Section 376 of the IPC.
+Section 375 and Section 90 of the Indian Penal Code, 1860 and on the consent/consensual sex are required to be referred to and considered.
+Laws pertaining to sexual assault/ harassment and rape in India
+POCSO- The POCSO Act, 2012 is a comprehensive law to provide for the protection of children from the offences of sexual assault, sexual harassment and pornography, while safeguarding the interests of the child at every stage of the judicial process by incorporating child-friendly mechanisms for reporting, recording of evidence, investigation and speedy trial of offences through designated Special Courts. The said Act defines a child as any person below eighteen years of age, and defines different forms of sexual abuse, including penetrative and non-penetrative assault, as well as sexual harassment and pornography, and deems a sexual assault to be “aggravated” under certain circumstances, such as when the abused child is mentally ill or when the abuse is committed by a person in a position of trust or authority vis-à-vis the child, like a family member, police officer, teacher, or doctor. People who trafficking children for sexual purposes are also punishable under the provisions relating to abetment in the said Act. The said Act prescribes stringent punishment graded as per the gravity of the offence, with a maximum term of rigorous imprisonment for life, and fine.
+Sexual Harassment at Work Place- Sexual harassment at a workplace is considered violation of women's right to equality, life and liberty. It creates an insecure and hostile work environment, which discourage women's participation in work, thereby adversely affecting their social and economic empowerment and the goal of inclusive growth1. With this idea the legislature formulated the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act 2013.
+
+
+
+
+    </string>
 
     <string-array name="countries_array">
         <item>Afghanistan</item>
