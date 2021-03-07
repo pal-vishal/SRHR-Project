@@ -50,8 +50,14 @@
             android:id="@+id/action_faqChoices3_to_puberty"
             app:destination="@id/puberty" />
         <action
-            android:id="@+id/action_faqChoices3_to_lastScreen"
-            app:destination="@id/lastScreen" />
+            android:id="@+id/action_faqChoices3_to_abortion"
+            app:destination="@id/abortion" />
+        <action
+            android:id="@+id/action_faqChoices3_to_safesex"
+            app:destination="@id/safesex" />
+        <action
+            android:id="@+id/action_faqChoices3_to_PCNPDT"
+            app:destination="@id/PCNPDT" />
     </fragment>
     <fragment
         android:id="@+id/rape"
@@ -68,15 +74,28 @@
         android:label="activity_faq_choices"
         tools:layout="@layout/activity_faq_choices" >
         <action
-            android:id="@+id/action_lastScreen_to_termsConditions2"
-            app:destination="@id/termsConditions2" />
-        <action
             android:id="@+id/action_lastScreen_to_faqChoices3"
             app:destination="@id/faqChoices3" />
+        <action
+            android:id="@+id/action_lastScreen_to_termsConditions2"
+            app:destination="@id/termsConditions2" />
     </fragment>
     <activity
         android:id="@+id/termsConditions2"
-        android:name="com.example.srhr_client.LastScreenMenu.TermsConditions"
+        android:name="com.example.srhr_client.TermsConditions"
         android:label="activity_terms_conditions"
         tools:layout="@layout/activity_terms_conditions" />
+    <fragment
+        android:id="@+id/abortion"
+        android:name="com.example.srhr_client.Abortion"
+        android:label="Abortion" />
+    <fragment
+        android:id="@+id/safesex"
+        android:name="com.example.srhr_client.safesex"
+        android:label="activity_safesex"
+        tools:layout="@layout/activity_safesex" />
+    <fragment
+        android:id="@+id/PCNPDT"
+        android:name="com.example.srhr_client.PCNPDT"
+        android:label="PCNPDT" />
 </navigation>

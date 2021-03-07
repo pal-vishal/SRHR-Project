@@ -49,8 +49,17 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
     public void onItemClick(int position) {
         NavController navController = Navigation.findNavController(getActivity(), R.id.fragment);
         switch(position){
+            case 0:
+           navController.navigate(R.id.action_faqChoices3_to_abortion);
+            break;
+            case 1:
+                navController.navigate(R.id.action_faqChoices3_to_PCNPDT);
+                break;
             case 2:
                 navController.navigate(R.id.action_faqChoices3_to_rape);
+                break;
+            case 3:
+                navController.navigate(R.id.action_faqChoices3_to_safesex);
                 break;
             case 4:
                 navController.navigate(R.id.action_faqChoices3_to_puberty);
