@@ -313,9 +313,9 @@ Sexual Harassment:
 
 Rape: Rape is a form of sexual assault, but not all sexual assault is rape. The term rape is often used as a legal definition to specifically include sexual penetration without consent.</string>
     <string name="ans1Rape">Typically, rape is an expression of aggression, anger, or need for power; psychologically, it is more violent than sexual. Non genital or genital injury occurs in about 50% of rapes of females.</string>
-    
-    
-<string name="ques1Safe">What is Safe sex?</string>
+
+
+    <string name="ques1Safe">What is Safe sex?</string>
     <string name="ans1Safe">A.1 Safe sex means protective sexual contact/ intercourse with your partner (s).  Safe sex practices avoid any unplanned pregnancies. It may not be 100% safe but through various methods, this practice can eliminate the chances of getting Sexually Transmitted diseases or gupt rog.  Consent is Important of Safe Sex: It is very important to talk about sex, with partners involved in sexual intercourse. Consent and safe sex: It is very important to have the consent willingly for safe sex.</string>
     <string name="ques2Safe">What are the best options for Safe sex?</string>
     <string name="ans2Safe">A2. Best options like Condoms (Male and Female), Intrauterine Device (IUDs) and contraception pills (oral) etc.
@@ -533,4 +533,6 @@ Originally, abortion was a criminal offence for both, the woman and the abortion
 However, when one explores these laws, it becomes apparent that they still look at women, primarily as mothers. This position is critiqued extensively by Gauri Pillai. In essence, Pillai argues, The MTP Act allows for abortion only under exceptional circumstances, implying that by default, women should continue with the pregnancy. The Act does not provide abortion as an independent right, but basis it on the presence of certain conditions. Additionally, the Act looks at abortion through the prism of a medical procedure, (as suggested by the name of the Act itself- Medical Termination of Pregnancy) and not abortion. The Statement of Reasons and Objects of the Act describes abortion as a health measure and to prevent wastage of life. The Act gives weightage to the opinion of medical practitioners and views them as co-decison makers along with women. Womens decisions to undergo an abortion are overridden if the Medical Board opines that the continuation of pregnancy is less hazardous than termination at that stage. Thus, the medical risk of termination becomes the primary consideration while making a decision under the Act. writes Gauri Pillai.
 
 Therefore, a close study of Indias abortion law reveals how poorly it identifies with the vision of the Constitution. Our Constitution was supposed to act as a vehicle of radical social and cultural change. This reductive spirit of the abortion laws, then, clearly does not match the transformative characteristics of the Constitution. As per the laws, the fact that women can reproduce, is understood to mean that they must. Through this, women seeking abortion are seen as any other patient is. Abortion laws must be an enabler for women to undo historical wrongs and take back control over their bodies and lives.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
