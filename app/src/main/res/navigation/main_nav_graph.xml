@@ -49,6 +49,9 @@
         <action
             android:id="@+id/action_faqChoices3_to_puberty"
             app:destination="@id/puberty" />
+        <action
+            android:id="@+id/action_faqChoices3_to_lastScreen"
+            app:destination="@id/lastScreen" />
     </fragment>
     <fragment
         android:id="@+id/rape"
@@ -65,15 +68,15 @@
         android:label="activity_faq_choices"
         tools:layout="@layout/activity_faq_choices" >
         <action
-            android:id="@+id/action_lastScreen_to_faqChoices3"
-            app:destination="@id/faqChoices3" />
-        <action
             android:id="@+id/action_lastScreen_to_termsConditions2"
             app:destination="@id/termsConditions2" />
+        <action
+            android:id="@+id/action_lastScreen_to_faqChoices3"
+            app:destination="@id/faqChoices3" />
     </fragment>
     <activity
         android:id="@+id/termsConditions2"
-        android:name="com.example.srhr_client.TermsConditions"
+        android:name="com.example.srhr_client.LastScreenMenu.TermsConditions"
         android:label="activity_terms_conditions"
         tools:layout="@layout/activity_terms_conditions" />
 </navigation>

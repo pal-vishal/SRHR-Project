@@ -56,7 +56,7 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
                 navController.navigate(R.id.action_faqChoices3_to_puberty);
                 break;
             case 5:
-
+                navController.navigate(R.id.action_faqChoices3_to_lastScreen);
 
         }
     }

@@ -1,14 +1,14 @@
-package com.example.srhr_client;
+package com.example.srhr_client.LastScreenMenu;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class TermsConditions extends AppCompatActivity {
+public class AboutUs extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_terms_conditions);
+        setContentView(R.layout.activity_about_us);
     }
 }
