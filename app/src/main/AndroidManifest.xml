@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".LastScreenMenu.ContactUs"></activity>
+        <activity android:name=".LastScreenMenu.AppFaq"></activity>
+        <activity android:name=".LastScreenMenu.ContactUs" />
         <activity android:name=".LastScreenMenu.AboutUs" />
         <activity android:name=".safesex" />
         <activity android:name=".LastScreenMenu.TermsConditions" />

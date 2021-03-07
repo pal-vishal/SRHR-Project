@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.srhr_client.R;
 
-public class AboutUs extends AppCompatActivity {
+public class AppFaq extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_about_us);
+        setContentView(R.layout.activity_app_faq);
     }
 }
