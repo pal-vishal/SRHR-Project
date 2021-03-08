@@ -3,6 +3,7 @@ package com.example.srhr_client;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -13,6 +14,9 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -26,6 +30,8 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
     List<String>categories;
     View rootView;
     private ImageView fb,twitter,insta;
+    private Toolbar toolbar;
+    private NavController navController;
 
     @Nullable
     @Override
@@ -65,6 +71,12 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         categories.add("RAPE");
         categories.add("PCPNDT");
         categories.add("FAQ");
+
+        toolbar = rootView.findViewById(R.id.main_toolbar);
+        navController = Navigation.findNavController(getActivity(), R.id.fragment);
+        ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Select Category");
+        setHasOptionsMenu(true);
         return rootView;
     }
 
@@ -102,4 +114,29 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
 
         }
     }
+
+    @Override
+    public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.options_menu, menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.aboutUs:
+                navController.navigate(R.id.action_faqChoices3_to_aboutUs);
+                return true;
+            case R.id.contactUs:
+                navController.navigate(R.id.action_faqChoices3_to_contactUs);
+                return true;
+            case R.id.inviteFriend:
+                navController.navigate(R.id.action_faqChoices3_to_inviteFriend);
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+
+
 }
