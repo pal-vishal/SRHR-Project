@@ -21,4 +21,12 @@
         android:id="@+id/query"
         android:title="Write To Us"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/clinics"
+        android:title="Disha Clinics"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/videos"
+        android:title="Videos"
+        app:showAsAction="never"/>
 </menu>

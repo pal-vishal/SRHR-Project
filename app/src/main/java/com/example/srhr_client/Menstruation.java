@@ -3,6 +3,7 @@ package com.example.srhr_client;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
@@ -28,7 +29,7 @@ public class Menstruation extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         rootView = inflater.inflate(R.layout.activity_rape, container, false);
-        recyclerView = rootView.findViewById(R.id.rapeRecyclerView);
+        recyclerView = rootView.findViewById(R.id.rv_mens);
         quesAnsList = new ArrayList<>();
 
         quesAnsList.add(new QuesAns("What is menstruation","Menstruation, or period, is normal vaginal bleeding that occurs as part of a woman's monthly cycle. Every month, your body prepares for pregnancy. If no pregnancy occurs, the uterus, or womb, sheds its lining. The menstrual blood is partly blood and partly tissue from inside the uterus. It passes out of the body through the vagina.\n" +
@@ -78,6 +79,11 @@ public class Menstruation extends Fragment {
         quesAnsList.add(new QuesAns("How does conception occur?","\uF0B7The ability to conceive requires the meeting of a male’s sperm with a female’s egg. Once a woman’s ovary releases an egg, the egg lives for only between 12 and 24 hours. The male sperm can live for about three days.\n" +
                 "\uF0B7The typical female cycle is 28 days. Day 1 is when she starts her period. A woman typically ovulates around day 14 (but it could be around days 12, 13, or 14) ovulation is when a woman’s ovary releases an egg for fertilization. If a sperm is available in the uterus, pregnancy can occur.\n" +
                 "\uF0B7Ovulation can vary based on a woman’s cycle. Some women have a longer cycle of around 35 days between periods. Ovulation would then happen around day 21. Women with a shorter cycle of 21 days ovulate around the seventh day","Q15"));
+
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        quesAnsAdapter = new QuesAnsAdapter(quesAnsList);
+        recyclerView.setAdapter(quesAnsAdapter);
+
 
         return rootView;
     }

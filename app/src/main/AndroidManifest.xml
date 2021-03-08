@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Email"></activity>
+        <activity android:name=".Clinics"></activity>
+        <activity android:name=".pwdvaact" />
+        <activity android:name=".Email" />
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

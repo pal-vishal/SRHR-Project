@@ -34,7 +34,7 @@ public class Email extends AppCompatActivity {
         String msg = content.getText().toString();
 
         Intent i = new Intent(Intent.ACTION_SEND);
-        i.putExtra(Intent.EXTRA_EMAIL,recp);
+        i.putExtra(Intent.EXTRA_EMAIL,"srhrmereliye.ai@gmail.com");
         i.putExtra(Intent.EXTRA_SUBJECT,subject);
         i.putExtra(Intent.EXTRA_TEXT,msg);
 

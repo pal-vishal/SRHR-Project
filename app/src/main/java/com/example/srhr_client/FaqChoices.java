@@ -70,6 +70,7 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         categories.add("SAFE SEX & STD");
         categories.add("RAPE");
         categories.add("PCPNDT");
+        categories.add("PWDVA ACT");
         categories.add("FAQ");
 
         toolbar = rootView.findViewById(R.id.main_toolbar);
@@ -109,6 +110,9 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
                 navController.navigate(R.id.action_faqChoices3_to_abortion);
                 break;
             case 6:
+                navController.navigate(R.id.action_faqChoices3_to_pwdvaact);
+                break;
+            case 7:
                 navController.navigate(R.id.action_faqChoices3_to_appFaq);
                 break;
 
@@ -135,6 +139,10 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
                 return true;
             case R.id.query:
                 navController.navigate(R.id.action_faqChoices3_to_email);
+                return true;
+            case R.id.clinics:
+                navController.navigate(R.id.action_faqChoices3_to_clinics2);
+
         }
         return super.onOptionsItemSelected(item);
     }

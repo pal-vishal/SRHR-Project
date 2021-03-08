@@ -76,6 +76,12 @@
         <action
             android:id="@+id/action_faqChoices3_to_email"
             app:destination="@id/email" />
+        <action
+            android:id="@+id/action_faqChoices3_to_pwdvaact"
+            app:destination="@id/pwdvaact" />
+        <action
+            android:id="@+id/action_faqChoices3_to_clinics2"
+            app:destination="@id/clinics2" />
     </fragment>
     <fragment
         android:id="@+id/rape"
@@ -145,4 +151,14 @@
         android:name="com.example.srhr_client.Email"
         android:label="activity_email"
         tools:layout="@layout/activity_email" />
+    <activity
+        android:id="@+id/pwdvaact"
+        android:name="com.example.srhr_client.pwdvaact"
+        android:label="activity_pwdvaact"
+        tools:layout="@layout/activity_pwdvaact" />
+    <activity
+        android:id="@+id/clinics2"
+        android:name="com.example.srhr_client.Clinics"
+        android:label="activity_clinics"
+        tools:layout="@layout/activity_clinics" />
 </navigation>
