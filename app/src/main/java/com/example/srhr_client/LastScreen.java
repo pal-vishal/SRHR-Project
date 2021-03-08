@@ -36,7 +36,7 @@ public class LastScreen extends Fragment implements RecyclerViewClick {
 
 
         options.add(new ButtonNames("About Us"));
-        options.add(new ButtonNames("Your Learning"));
+     //   options.add(new ButtonNames("Your Learning"));
         options.add(new ButtonNames("Contact Us"));
         options.add(new ButtonNames("Invite Friends"));
         options.add(new ButtonNames("Frequently Asked Questions"));

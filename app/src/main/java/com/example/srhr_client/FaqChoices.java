@@ -33,12 +33,12 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         faqAdapter = new FaqAdapter(categories,this);
         rv.setAdapter(faqAdapter);
 
-        categories.add("ABORTION");
-        categories.add("PCPNDT");
-        categories.add("RAPE");
-        categories.add("SAFE SEX & STD");
         categories.add("PUBERTY");
-        categories.add("SETTINGS");
+        categories.add("MENSTRUATION");
+        categories.add("SAFE SEX & STD");
+        categories.add("RAPE");
+        categories.add("PCPNDT");
+        categories.add("FAQ");
 
         return rootView;
     }
@@ -50,22 +50,26 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         NavController navController = Navigation.findNavController(getActivity(), R.id.fragment);
         switch(position){
             case 0:
-           navController.navigate(R.id.action_faqChoices3_to_abortion);
+           navController.navigate(R.id.action_faqChoices3_to_puberty);
             break;
             case 1:
                 navController.navigate(R.id.action_faqChoices3_to_PCNPDT);
                 break;
             case 2:
-                navController.navigate(R.id.action_faqChoices3_to_rape);
-                break;
-            case 3:
                 navController.navigate(R.id.action_faqChoices3_to_safesex);
                 break;
+            case 3:
+                navController.navigate(R.id.action_faqChoices3_to_rape);
+                break;
             case 4:
-                navController.navigate(R.id.action_faqChoices3_to_puberty);
+                navController.navigate(R.id.action_faqChoices3_to_PCNPDT);
                 break;
             case 5:
-                navController.navigate(R.id.action_faqChoices3_to_lastScreen);
+                navController.navigate(R.id.action_faqChoices3_to_abortion);
+                break;
+            case 6:
+                navController.navigate(R.id.action_faqChoices3_to_appFaq);
+                break;
 
         }
     }

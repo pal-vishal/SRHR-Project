@@ -58,6 +58,9 @@
         <action
             android:id="@+id/action_faqChoices3_to_PCNPDT"
             app:destination="@id/PCNPDT" />
+        <action
+            android:id="@+id/action_faqChoices3_to_appFaq"
+            app:destination="@id/appFaq" />
     </fragment>
     <fragment
         android:id="@+id/rape"
@@ -98,4 +101,9 @@
         android:id="@+id/PCNPDT"
         android:name="com.example.srhr_client.PCNPDT"
         android:label="PCNPDT" />
+    <fragment
+        android:id="@+id/appFaq"
+        android:name="com.example.srhr_client.model.AppFaq"
+        android:label="fragment_app_faq"
+        tools:layout="@layout/fragment_app_faq" />
 </navigation>
