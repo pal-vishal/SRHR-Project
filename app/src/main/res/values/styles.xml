@@ -1,10 +1,11 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimaryDark</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/textColorPrimary</item>
+        <item name="colorControlNormal">@color/textColorPrimary</item>
     </style>
 
     <style name="customEditText" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">

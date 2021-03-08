@@ -62,8 +62,14 @@
             android:id="@+id/action_faqChoices3_to_appFaq"
             app:destination="@id/appFaq" />
         <action
-            android:id="@+id/action_faqChoices3_to_menstruation"
-            app:destination="@id/menstruation" />
+            android:id="@+id/action_faqChoices3_to_aboutUs"
+            app:destination="@id/aboutUs" />
+        <action
+            android:id="@+id/action_faqChoices3_to_contactUs"
+            app:destination="@id/contactUs" />
+        <action
+            android:id="@+id/action_faqChoices3_to_inviteFriend"
+            app:destination="@id/inviteFriend" />
     </fragment>
     <fragment
         android:id="@+id/rape"
@@ -110,8 +116,17 @@
         android:label="fragment_app_faq"
         tools:layout="@layout/fragment_app_faq" />
     <fragment
-        android:id="@+id/menstruation"
-        android:name="com.example.srhr_client.Menstruation"
-        android:label="fragment_menstruation"
-        tools:layout="@layout/fragment_menstruation" />
+        android:id="@+id/aboutUs"
+        android:name="com.example.srhr_client.LastScreenMenu.AboutUs"
+        android:label="activity_about_us"
+        tools:layout="@layout/activity_about_us" />
+    <fragment
+        android:id="@+id/contactUs"
+        android:name="com.example.srhr_client.LastScreenMenu.ContactUs"
+        android:label="activity_contact_us"
+        tools:layout="@layout/activity_contact_us" />
+    <fragment
+        android:id="@+id/inviteFriend"
+        android:name="com.example.srhr_client.LastScreenMenu.InviteFriend"
+        android:label="InviteFriend" />
 </navigation>

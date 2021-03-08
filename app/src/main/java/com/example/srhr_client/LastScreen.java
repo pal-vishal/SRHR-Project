@@ -36,7 +36,7 @@ public class LastScreen extends Fragment implements RecyclerViewClick {
 
 
         options.add(new ButtonNames("About Us"));
-     //   options.add(new ButtonNames("Your Learning"));
+        options.add(new ButtonNames("Your Learning"));
         options.add(new ButtonNames("Contact Us"));
         options.add(new ButtonNames("Invite Friends"));
         options.add(new ButtonNames("Frequently Asked Questions"));
@@ -59,14 +59,18 @@ public class LastScreen extends Fragment implements RecyclerViewClick {
     public void onItemClick(int position) {
         NavController navController = Navigation.findNavController(getActivity(), R.id.fragment);
         switch (position) {
+            /*
             case 0:
                 navController.navigate(R.id.action_lastScreen_to_aboutUs);
                 break;
-            case 1:
-                navController.navigate(R.id.action_lastScreen_to_faqChoices3);
-                break;
+
             case 2:
                 navController.navigate(R.id.action_lastScreen_to_contactUs);
+                break;
+
+             */
+            case 1:
+                navController.navigate(R.id.action_lastScreen_to_faqChoices3);
                 break;
 
         }
