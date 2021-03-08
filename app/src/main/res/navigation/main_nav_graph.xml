@@ -79,6 +79,12 @@
         <action
             android:id="@+id/action_lastScreen_to_termsConditions2"
             app:destination="@id/termsConditions2" />
+        <action
+            android:id="@+id/action_lastScreen_to_aboutUs"
+            app:destination="@id/aboutUs" />
+        <action
+            android:id="@+id/action_lastScreen_to_contactUs"
+            app:destination="@id/contactUs" />
     </fragment>
     <activity
         android:id="@+id/termsConditions2"
@@ -98,4 +104,14 @@
         android:id="@+id/PCNPDT"
         android:name="com.example.srhr_client.PCNPDT"
         android:label="PCNPDT" />
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.example.srhr_client.LastScreenMenu.AboutUs"
+        android:label="activity_about_us"
+        tools:layout="@layout/activity_about_us" />
+    <fragment
+        android:id="@+id/contactUs"
+        android:name="com.example.srhr_client.LastScreenMenu.ContactUs"
+        android:label="activity_contact_us"
+        tools:layout="@layout/activity_contact_us" />
 </navigation>

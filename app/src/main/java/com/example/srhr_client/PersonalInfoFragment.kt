@@ -20,7 +20,7 @@ class PersonalInfoFragment : Fragment(R.layout.fragment_personal_info){
         val adapter = ArrayAdapter(requireContext(),R.layout.dropdown_item,listArray)
         countriesList.setAdapter(adapter)
         countriesList.setText("",false)
-        textView7.setOnClickListener { findNavController().navigate(R.id.action_personalInfoFragment_to_faqChoices3) }
+        textView7.setOnClickListener { findNavController().navigate(R.id.action_personalInfoFragment_to_lastScreen) }
 
         chipMale.setOnClickListener {
             chipFemale.isChecked = false

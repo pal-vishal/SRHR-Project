@@ -20,18 +20,18 @@ import java.util.List;
 public class LastScreen extends Fragment implements RecyclerViewClick {
     private RecyclerView rv_list;
     LSAdapter lsAdapter;
-    List<ButtonNames>options;
+    List<ButtonNames> options;
 
     View rootView;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.activity_last_screen,container,false);
+        rootView = inflater.inflate(R.layout.activity_last_screen, container, false);
         rv_list = rootView.findViewById(R.id.rv_list);
         options = new ArrayList<>();
         rv_list.setLayoutManager(new LinearLayoutManager(getContext()));
-        lsAdapter = new LSAdapter(options,this);
+        lsAdapter = new LSAdapter(options, this);
         rv_list.setAdapter(lsAdapter);
 
 
@@ -57,10 +57,18 @@ public class LastScreen extends Fragment implements RecyclerViewClick {
 
     @Override
     public void onItemClick(int position) {
-         NavController navController = Navigation.findNavController(getActivity(), R.id.fragment);
-         if (position==2){
-             navController.navigate(R.id.action_lastScreen_to_faqChoices3);
-         }
+        NavController navController = Navigation.findNavController(getActivity(), R.id.fragment);
+        switch (position) {
+            case 0:
+                navController.navigate(R.id.action_lastScreen_to_aboutUs);
+                break;
+            case 1:
+                navController.navigate(R.id.action_lastScreen_to_faqChoices3);
+                break;
+            case 2:
+                navController.navigate(R.id.action_lastScreen_to_contactUs);
+                break;
 
+        }
     }
 }
