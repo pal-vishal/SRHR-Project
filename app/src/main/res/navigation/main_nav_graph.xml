@@ -61,6 +61,9 @@
         <action
             android:id="@+id/action_faqChoices3_to_appFaq"
             app:destination="@id/appFaq" />
+        <action
+            android:id="@+id/action_faqChoices3_to_menstruation"
+            app:destination="@id/menstruation" />
     </fragment>
     <fragment
         android:id="@+id/rape"
@@ -106,4 +109,9 @@
         android:name="com.example.srhr_client.model.AppFaq"
         android:label="fragment_app_faq"
         tools:layout="@layout/fragment_app_faq" />
+    <fragment
+        android:id="@+id/menstruation"
+        android:name="com.example.srhr_client.Menstruation"
+        android:label="fragment_menstruation"
+        tools:layout="@layout/fragment_menstruation" />
 </navigation>

@@ -52,7 +52,7 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
            navController.navigate(R.id.action_faqChoices3_to_puberty);
             break;
             case 1:
-                navController.navigate(R.id.action_faqChoices3_to_PCNPDT);
+                navController.navigate(R.id.action_faqChoices3_to_menstruation);
                 break;
             case 2:
                 navController.navigate(R.id.action_faqChoices3_to_safesex);
