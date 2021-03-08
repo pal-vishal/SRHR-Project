@@ -33,8 +33,46 @@
         android:id="@+id/rv_faq"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        tools:layout_editor_absoluteX="-16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/iv_fb"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/ic_baseline_facebook_24"
+        app:layout_constraintEnd_toStartOf="@+id/iv_insta"
+        app:layout_constraintHorizontal_bias="0.293"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv_faq"
+        app:srcCompat="@drawable/fb" />
+
+    <ImageView
+        android:id="@+id/iv_insta"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/instaart"
+        app:layout_constraintStart_toEndOf="@+id/iv_fb"
+        app:layout_constraintTop_toBottomOf="@+id/rv_faq"
+        app:srcCompat="@drawable/insta" />
+
+    <ImageView
+        android:id="@+id/iv_twitter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="56dp"
+        android:src="@drawable/twitter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/iv_insta"
+        app:layout_constraintTop_toBottomOf="@+id/rv_faq" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,10 +9,13 @@ import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +25,7 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
     FaqAdapter faqAdapter;
     List<String>categories;
     View rootView;
+    private ImageView fb,twitter,insta;
 
     @Nullable
     @Override
@@ -33,6 +37,28 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         faqAdapter = new FaqAdapter(categories,this);
         rv.setAdapter(faqAdapter);
 
+        fb = rootView.findViewById(R.id.iv_fb);
+        twitter = rootView.findViewById(R.id.iv_twitter);
+        insta = rootView.findViewById(R.id.iv_insta);
+
+        fb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotourl("https://www.facebook.com/40yearsofactionindia/");
+            }
+        });
+        twitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotourl("https://twitter.com/ActionIndia4?s=20");
+            }
+        });
+        insta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotourl("https://instagram.com/actionindia76?igshid=7xup04jevgbd");
+            }
+        });
         categories.add("PUBERTY");
         categories.add("MENSTRUATION");
         categories.add("SAFE SEX & STD");
@@ -42,6 +68,10 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         return rootView;
     }
 
+    private void gotourl(String s) {
+        Uri uri = Uri.parse(s);
+        startActivity(new Intent(Intent.ACTION_VIEW,uri));
+    }
 
 
     @Override
