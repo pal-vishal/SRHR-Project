@@ -37,13 +37,13 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
     }
 
 
-//    override fun onStart() {
-//        super.onStart()
-//        val currentUser = auth.currentUser
-//        if (currentUser != null) {
-//            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
-//        }
-//    }
+    override fun onStart() {
+        super.onStart()
+        val currentUser = auth.currentUser
+        if (currentUser != null) {
+            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
+        }
+    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -53,57 +53,55 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
         mobile = editTextMobile.text.toString()
         Log.e("strings", "null" + email + password + mobile)
 
-        binding.button2.setOnClickListener{
 
-                findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
-            
+        binding.button2.setOnClickListener {
+            auth.createUserWithEmailAndPassword(
+                binding.textEmail.text.toString(),
+                binding.editPassword.text.toString()
+            )
+                .addOnCompleteListener { task: Task<AuthResult> ->
+                    if (task.isSuccessful) {
+                        findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
+
+                    } else {
+                        Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
+                        Toast.makeText(
+                            context, "Authentication failed.",
+                            Toast.LENGTH_SHORT
+                        ).show()
+
+                    }
+                }
+
         }
-//        binding.button2.setOnClickListener {
-//            auth.createUserWithEmailAndPassword(
-//                binding.textEmail.text.toString(),
-//                binding.editPassword.text.toString()
-//            )
-//                .addOnCompleteListener { task: Task<AuthResult> ->
-//                    if (task.isSuccessful) {
-//                        findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
-//
-//                    } else {
-//                        Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
-//                        Toast.makeText(
-//                            context, "Authentication failed.",
-//                            Toast.LENGTH_SHORT
-//                        ).show()
-//
-//                    }
-//                }
-//
-//        }
-//        binding.button.setOnClickListener {
-//
-//
-//            if (!textEmail.text.toString().isNullOrEmpty() && !editPassword.text.toString().isNullOrEmpty()) {
-//                auth.signInWithEmailAndPassword(
-//                    binding.textEmail.text.toString(),
-//                    binding.editPassword.text.toString()
-//                )
-//                    .addOnCompleteListener { task: Task<AuthResult> ->
-//                        if (task.isSuccessful) {
-//                            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
-//                        } else {
-//                            Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
-//                            Toast.makeText(
-//                                context, "Authentication failed.",
-//                                Toast.LENGTH_SHORT
-//                            ).show()
-//
-//                        }
-//                    }
-//            }else if(!editTextMobile.text.toString().isNullOrEmpty()) {
-//                val action =
-//                    LoginSignUpFragmentDirections.actionLoginSignUpFragmentToOtpFragment(binding.editTextMobile.text.toString())
-//                findNavController().navigate(action)
-//            }
-//
-//        }
+        binding.button.setOnClickListener {
+
+
+            if (!textEmail.text.toString().isNullOrEmpty() && !editPassword.text.toString()
+                    .isNullOrEmpty()
+            ) {
+                auth.signInWithEmailAndPassword(
+                    binding.textEmail.text.toString(),
+                    binding.editPassword.text.toString()
+                )
+                    .addOnCompleteListener { task: Task<AuthResult> ->
+                        if (task.isSuccessful) {
+                            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
+                        } else {
+                            Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
+                            Toast.makeText(
+                                context, "Authentication failed.",
+                                Toast.LENGTH_SHORT
+                            ).show()
+
+                        }
+                    }
+            } else if (!editTextMobile.text.toString().isNullOrEmpty()) {
+                val action =
+                    LoginSignUpFragmentDirections.actionLoginSignUpFragmentToOtpFragment(binding.editTextMobile.text.toString())
+                findNavController().navigate(action)
+            }
+
+        }
     }
 }
