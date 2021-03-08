@@ -39,7 +39,6 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         categories.add("RAPE");
         categories.add("PCPNDT");
         categories.add("FAQ");
-
         return rootView;
     }
 
