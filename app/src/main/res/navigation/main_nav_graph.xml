@@ -73,6 +73,9 @@
         <action
             android:id="@+id/action_faqChoices3_to_menstruation"
             app:destination="@id/menstruation" />
+        <action
+            android:id="@+id/action_faqChoices3_to_email"
+            app:destination="@id/email" />
     </fragment>
     <fragment
         android:id="@+id/rape"
@@ -137,4 +140,9 @@
         android:name="com.example.srhr_client.Menstruation"
         android:label="fragment_menstruation"
         tools:layout="@layout/fragment_menstruation" />
+    <activity
+        android:id="@+id/email"
+        android:name="com.example.srhr_client.Email"
+        android:label="activity_email"
+        tools:layout="@layout/activity_email" />
 </navigation>

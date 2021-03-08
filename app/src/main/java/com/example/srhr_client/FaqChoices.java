@@ -133,6 +133,8 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
             case R.id.inviteFriend:
                 navController.navigate(R.id.action_faqChoices3_to_inviteFriend);
                 return true;
+            case R.id.query:
+                navController.navigate(R.id.action_faqChoices3_to_email);
         }
         return super.onOptionsItemSelected(item);
     }

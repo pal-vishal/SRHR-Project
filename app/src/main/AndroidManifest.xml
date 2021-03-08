@@ -13,15 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
+        <activity android:name=".Email"></activity>
         <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-<!--        <activity android:name=".safesex" />-->
+        </activity> <!-- <activity android:name=".safesex" /> -->
         <activity android:name=".LastScreenMenu.TermsConditions" />
         <activity android:name=".Videos" />
         <activity android:name=".MainActivity">
