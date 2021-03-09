@@ -8,22 +8,29 @@
     <fragment
         android:id="@+id/loginSignUpFragment"
         android:name="com.example.srhr_client.LoginSignUpFragment"
-        android:label="LoginSignUpFragment" >
+        android:label="LoginSignUpFragment">
         <action
             android:id="@+id/action_loginSignUpFragment_to_personalInfoFragment"
             app:destination="@id/personalInfoFragment" />
         <action
             android:id="@+id/action_loginSignUpFragment_to_otpFragment"
             app:destination="@id/otpFragment" />
+        <action
+            android:id="@+id/action_loginSignUpFragment_to_faqChoices3"
+            app:destination="@id/faqChoices3"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/personalInfoFragment"
         android:name="com.example.srhr_client.PersonalInfoFragment"
-        android:label="PersonalInfoFragment" >
+        android:label="PersonalInfoFragment">
 
         <action
             android:id="@+id/action_personalInfoFragment_to_faqChoices3"
-            app:destination="@id/faqChoices3" />
+            app:destination="@id/faqChoices3"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true" />
         <action
             android:id="@+id/action_personalInfoFragment_to_lastScreen"
             app:destination="@id/lastScreen" />
@@ -31,7 +38,7 @@
     <fragment
         android:id="@+id/otpFragment"
         android:name="com.example.srhr_client.OtpFragment"
-        android:label="OtpFragment" >
+        android:label="OtpFragment">
         <argument
             android:name="mobileNo"
             app:argType="string" />
@@ -42,7 +49,7 @@
     <fragment
         android:id="@+id/faqChoices3"
         android:name="com.example.srhr_client.FaqChoices"
-        android:label="FaqChoices" >
+        android:label="FaqChoices">
         <action
             android:id="@+id/action_faqChoices3_to_rape"
             app:destination="@id/rape" />
@@ -96,7 +103,7 @@
         android:id="@+id/lastScreen"
         android:name="com.example.srhr_client.LastScreen"
         android:label="activity_faq_choices"
-        tools:layout="@layout/activity_faq_choices" >
+        tools:layout="@layout/activity_faq_choices">
         <action
             android:id="@+id/action_lastScreen_to_faqChoices3"
             app:destination="@id/faqChoices3" />

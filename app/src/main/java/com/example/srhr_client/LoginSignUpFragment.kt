@@ -41,7 +41,7 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
         super.onStart()
         val currentUser = auth.currentUser
         if (currentUser != null) {
-            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
+            findNavController().navigate(R.id.action_loginSignUpFragment_to_faqChoices3)
         }
     }
 
