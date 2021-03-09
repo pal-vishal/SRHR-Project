@@ -168,4 +168,9 @@
         android:name="com.example.srhr_client.Clinics"
         android:label="activity_clinics"
         tools:layout="@layout/activity_clinics" />
+    <activity
+        android:id="@+id/splash"
+        android:name="com.example.srhr_client.Splash"
+        android:label="activity_splash"
+        tools:layout="@layout/activity_splash" />
 </navigation>

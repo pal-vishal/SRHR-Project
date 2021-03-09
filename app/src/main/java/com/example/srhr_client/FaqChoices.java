@@ -70,6 +70,7 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
         categories.add("SAFE SEX & STD");
         categories.add("RAPE");
         categories.add("PCPNDT");
+        categories.add("Abortion");
         categories.add("PWDVA ACT");
         categories.add("FAQ");
 
