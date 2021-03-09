@@ -28,7 +28,7 @@ public class Menstruation extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        rootView = inflater.inflate(R.layout.activity_rape, container, false);
+        rootView = inflater.inflate(R.layout.fragment_menstruation, container, false);
         recyclerView = rootView.findViewById(R.id.rv_mens);
         quesAnsList = new ArrayList<>();
 
