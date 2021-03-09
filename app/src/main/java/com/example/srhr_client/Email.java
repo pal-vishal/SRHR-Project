@@ -29,7 +29,7 @@ public class Email extends AppCompatActivity {
     }
 
     private void sendmail() {
-        String recp = to.getText().toString();
+       // String recp = to.getText().toString();
         String[] recipants = {"srhrmereliye.ai@gmail.com"};
         String subject = sub.getText().toString();
         String msg = content.getText().toString();
