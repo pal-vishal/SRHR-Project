@@ -73,11 +73,11 @@ public class QuesAnsAdapter extends RecyclerView.Adapter<QuesAnsAdapter.MyViewHo
                     if (expandableView.getVisibility() == View.GONE) {
                         TransitionManager.beginDelayedTransition(cardView, new AutoTransition());
                         expandableView.setVisibility(View.VISIBLE);
-                        button.setImageResource(R.drawable.ic_baseline_close_24);
+                        button.setImageResource(R.drawable.ic_baseline_expand_less_24);
                     } else {
                         TransitionManager.beginDelayedTransition(cardView, new AutoTransition());
                         expandableView.setVisibility(View.GONE);
-                        button.setImageResource(R.drawable.ic_baseline_add_24);
+                        button.setImageResource(R.drawable.ic_baseline_expand_more_24);
                     }
                 }
             });
