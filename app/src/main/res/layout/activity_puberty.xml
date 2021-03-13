@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:scrollbars="vertical"
-        android:text="Puberty"
+        android:text="यौवन"
         android:textAllCaps="true"
         android:textColor="#fff"
         android:textColorLink="#000"
@@ -36,7 +36,7 @@
         android:layout_marginTop="24dp"
         android:paddingLeft="10dp"
         android:scrollbars="vertical"
-        android:text="Professor James M. Tanner, a child development expert, was the first to identify the visible stages of puberty. Today, these stages are known as the Tanner stages or, more appropriately, sexual maturity ratings. They serve as a general guide to physical development, although each person has a different puberty timetable.  Girls Puberty usually starts between ages 9 and 11. The first signs of breasts, called “buds,” start to form under the nipple. They may be itchy or tender, which is normal.  It’s common for breasts to be different sizes and grow at different rates. So, it’s normal if one bud appears larger than the other. The darker area around the nipple (areola) will also expand. In addition, the uterus begins to get larger, and small amounts of pubic hair start growing on the lips of the vagina. Girls with higher body mass index experience an earlier onset of puberty. BOYS In boys, puberty usually starts around age 11. The testicles and skin around the testicles (scrotum) begin to get bigger. Also, early stages of pubic hair forms on the base of the penis. "
+        android:text='बाल विकास विशेषज्ञ प्रोफेसर जेम्स एम। टान्नर युवावस्था के दृश्य चरणों की पहचान करने वाले पहले व्यक्ति थे। आज, इन चरणों को टैनर चरणों या अधिक उचित रूप से, यौन परिपक्वता रेटिंग के रूप में जाना जाता है। वे शारीरिक विकास के लिए एक सामान्य मार्गदर्शक के रूप में काम करते हैं, हालांकि प्रत्येक व्यक्ति का एक अलग यौवन समय सारिणी है। गर्ल्स प्यूबर्टी आमतौर पर 9 से 11. वर्ष की उम्र के बीच शुरू होती है, स्तनों के पहले लक्षण जिन्हें "कलियाँ" कहा जाता है, निप्पल के नीचे बनने लगते हैं। उन्हें खुजली या निविदा हो सकती है, जो सामान्य है। स्तनों का अलग-अलग आकार होना और अलग-अलग दरों पर बढ़ना आम बात है। इसलिए, यदि एक कली दूसरे की तुलना में बड़ी दिखाई देती है तो यह सामान्य है। निप्पल (एरिओला) के आसपास का गहरा क्षेत्र भी विस्तारित होगा। इसके अलावा, गर्भाशय बड़े होने लगते हैं, और थोड़ी मात्रा में जघन बाल योनि के होंठों पर बढ़ने लगते हैं। उच्च बॉडी मास इंडेक्स वाली लड़कियां पहले की यौवन की शुरुआत का अनुभव करती हैं। लड़कों लड़कों में, यौवन आमतौर पर 11 साल की उम्र के आसपास शुरू होता है। अंडकोष (अंडकोश) के आसपास अंडकोष और त्वचा बड़ी होने लगती है। इसके अलावा, शिश्न के आधार पर जघन बाल के प्रारंभिक चरण बनते हैं।'
         android:textColor="#fff"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -18,7 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Abortion"
+            android:text="गर्भपात"
             android:textAllCaps="true"
             android:textColor="#fff"
             android:textColorLink="#000"

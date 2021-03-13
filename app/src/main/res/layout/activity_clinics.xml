@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Rashtriya Kishor Swasthya Karyakram (RKSK)"
+        android:text="राष्ट्रीय किशोर स्वास्थ्य कार्यकम (RKSK)"
         android:textColor="@color/colorPrimary"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"

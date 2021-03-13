@@ -32,53 +32,51 @@ public class Menstruation extends Fragment {
         recyclerView = rootView.findViewById(R.id.rv_mens);
         quesAnsList = new ArrayList<>();
 
-        quesAnsList.add(new QuesAns("What is menstruation","Menstruation, or period, is normal vaginal bleeding that occurs as part of a woman's monthly cycle. Every month, your body prepares for pregnancy. If no pregnancy occurs, the uterus, or womb, sheds its lining. The menstrual blood is partly blood and partly tissue from inside the uterus. It passes out of the body through the vagina.\n" +
-                "Periods usually start between age 11 and 14 and continue until menopause at about age 51. They usually last from three to five days. Besides bleeding from the vagina, you may have\n " +
-                "\uF0B7Abdominal or pelvic pain \n" +
-                "\uF0B7Lower back pain\n" +
-                "\uF0B7Bloating and sore breasts\n" +
-                "\uF0B7Food cravings\n" +
-                "\uF0B7Mood swings and irritability\n" +
-                "\uF0B7Headache and fatigue\n"+
-                "Premenstrual Syndrome or PMS, is a group of symptoms that start before the period. It can include emotional and physical symptoms","Q1"));
+        quesAnsList.add(new QuesAns("माहवारी क्या है","मासिक धर्म, या अवधि, सामान्य योनि रक्तस्राव है जो एक महिला के मासिक चक्र के हिस्से के रूप में होता है। हर महीने, आपका शरीर गर्भावस्था की तैयारी करता है। यदि कोई गर्भावस्था नहीं होती है, तो गर्भाशय, या गर्भ, इसकी परत को बहा देता है। मासिक धर्म रक्त आंशिक रूप से रक्त और आंशिक रूप से गर्भाशय के अंदर से ऊतक है। यह योनि के माध्यम से शरीर से बाहर निकलता है।\n" +
+                "पीरियड्स आमतौर पर 11 से 14 साल के बीच शुरू होते हैं और 51 साल की उम्र में रजोनिवृत्ति तक जारी रहते हैं। वे आमतौर पर तीन से पांच दिनों तक रहते हैं। योनि से रक्तस्राव के अलावा, आपके पास हो सकता है\n " +
+                "\uF0B7पेट या पैल्विक दर्द \n" +
+                "\uF0B7पीठ के निचले हिस्से में दर्द\n" +
+                "\uF0B7सूजन और गले में खराश\n" +
+                "\uF0B7भोजन की इच्छा\n" +
+                "\uF0B7मिजाज और चिड़चिड़ापन\n" +
+                "\uF0B7सिरदर्द और थकान\n"+
+                "प्रीमेंस्ट्रुअल सिंड्रोम या पीएमएस, लक्षणों का एक समूह है जो अवधि से पहले शुरू होता है। इसमें भावनात्मक और शारीरिक लक्षण शामिल हो सकते हैं","Q1"));
 
-        quesAnsList.add(new QuesAns("When Do Most Girls Get Their Period?","Most girls get their first period when they're around 12. But getting it any time between age 10 and 15. Every girl's body has its own schedule.\n" +
-                "There isn't one right age for a girl to get her period. But there are some clues that it will start soon:\n" +
-                "\uF0B7Most of the time, a girl gets her period about 2 years after her breasts start to develop.\n" +
-                "\uF0B7Another sign is vaginal discharge fluid (sort of like mucus) that a girl might see or feel on her underwear. This discharge usually begins about 6 months to a year before a girl gets her first period.","Q2"));
+        quesAnsList.add(new QuesAns("जब ज्यादातर लड़कियों को उनकी अवधि मिलती है?", "अधिकांश लड़कियों को उनकी पहली अवधि मिलती है जब वे लगभग 12. होते हैं, लेकिन 10 से 15 वर्ष की उम्र के बीच किसी भी समय प्राप्त करना। हर लड़की के शरीर का अपना समय निर्धारित होता है।.\n" +
+                "एक लड़की को अपनी अवधि प्राप्त करने के लिए एक सही उम्र नहीं है। लेकिन कुछ सुराग हैं कि यह जल्द ही शुरू हो जाएगा:\n" +
+                "\uF0B7  समय के बाद, एक लड़की को उसके स्तनों का विकास शुरू होने के लगभग 2 साल बाद उसकी अवधि मिलती है। \n " +
+                "\uF0B7संकेत योनि स्राव तरल पदार्थ (श्लेष्मा की तरह) है जो एक लड़की अपने अंडरवियर पर देख सकती है या महसूस कर सकती है। यह निर्वहन आमतौर पर एक लड़की को पहली बार मिलने से लगभग 6 महीने पहले शुरू होता है।", "Q2)")) ;
+        quesAnsList.add(new QuesAns("एक अवधि के कारण क्या होता है? "," एक अवधि शरीर में हार्मोन में परिवर्तन के कारण होती है। हार्मोन रासायनिक संदेशवाहक हैं। अंडाशय महिला हार्मोन एस्ट्रोजन और प्रोजेस्टेरोन \n"+ "रिलीज करते है" +
+                "ये हार्मोन गर्भाशय (या गर्भ) के अस्तर का निर्माण करते हैं। अंतर्निहित अस्तर एक निषेचित अंडे के लिए तैयार है ताकि वह संलग्न हो और विकसित करना शुरू कर सके। यदि कोई निषेचित अंडा नहीं है, तो अस्तर टूट जाता है और फिर गिर जाता है। फिर एक ही प्रक्रिया फिर से होती है। आमतौर पर अस्तर के निर्माण में लगभग एक महीने का समय लगता है, फिर टूट जाते हैं। इसीलिए ज्यादातर लड़कियों और महिलाओं को महीने में एक बार पीरियड्स होते हैं। ","Q3"));
 
-        quesAnsList.add(new QuesAns("What Causes a Period?","A period happens because of changes in hormones in the body. Hormones are chemical messengers. The ovaries release the female hormones estrogen and progesterone \n" +
-                "These hormones cause the lining of the uterus (or womb) to build up. The built-up lining is ready for a fertilized egg to attach to and start developing. If there is no fertilized egg, the lining breaks down and bleeds. Then the same process happens all over again.It usually takes about a month for the lining to build up, then break down. That is why most girls and women get their periods around once a month.","Q3"));
+        quesAnsList.add(new QuesAns("ओवुलेशन पीरियड्स से कैसे संबंधित है?", "ओव्यूलेशन- अंडाशय से एक अंडे की रिहाई है। वही हार्मोन जो गर्भाशय के अस्तर का कारण बनते हैं, उनमें से एक अंडाशय में से एक को छोड़ देता है। अंडाणु एक के माध्यम से यात्रा करता है। पतली ट्यूब जिसे गर्भाशय में फैलोपियन ट्यूब कहा जाता है। \n "+
+                "अगर अंडे को एक शुक्राणु कोशिका द्वारा निषेचित किया जाता है, तो यह गर्भाशय की दीवार से जुड़ता है, जहां समय के साथ यह एक बच्चे में विकसित होता है। यदि अंडे को निषेचित नहीं किया जाता है, तो गर्भाशय का अस्तर टूट जाता है और फूल जाता है, जिससे एक अवधि होती है।" , "Q4"));
 
-        quesAnsList.add(new QuesAns("How Does Ovulation Relate to Periods?","Ovulation- is the release of an egg from the ovaries. The same hormones that cause the uterus lining to build up also cause an egg to leave one of the ovaries. The egg travels through a thin tube called a fallopian tube to the uterus.\n" +
-                "If the egg is fertilized by a sperm cell, it attaches to the wall of the uterus, where over time it develops into a baby. If the egg is not fertilized, the uterus lining breaks down and bleeds, causing a period.","Q4"));
+        quesAnsList.add(new QuesAns("मासिक धर्म शुरू होने पर नियमित रूप से पीरियड्स होते हैं?", "लड़की के पीरियड्स शुरू होने के बाद पहले कुछ सालों तक, वह नियमित रूप से नहीं आ सकती है। यह पहली बार में सामान्य है। उसकी पहली पीरियड के लगभग 2-3 साल बाद लड़की का पीरियड्स होता है।"+ " हर 4-5 सप्ताह में एक बार आना चाहिए। ","Q5"));
+        quesAnsList.add(new QuesAns("क्या पीरियड्स शुरू होते ही आप प्रेग्नेंट हो सकती हैं?","हां, एक लड़की गर्भवती हो सकती है जैसे ही उसकी अवधि शुरू होती है। एक लड़की भी अपनी पहली अवधि से ठीक पहले गर्भवती हो सकती है। ऐसा इसलिए है क्योंकि एक लड़की के हार्मोन पहले से ही सक्रिय हो सकते हैं। हार्मोन के कारण ओव्यूलेशन हो सकता है और गर्भाशय की दीवार का निर्माण हो सकता है। अगर कोई लड़की सेक्स करती है, तो वह गर्भवती हो सकती है, भले ही उसे कभी पीरियड न आया हो।","Q6"));
+        quesAnsList.add(new QuesAns("पीरियड्स कितने समय तक चलते हैं?", "पीरियड्स आमतौर पर लगभग 5 दिनों तक चलते हैं। लेकिन एक पीरियड कम या लंबे समय तक रह सकता है।","Q7"));
+        quesAnsList.add(new QuesAns("क्या मुझे पैड, टैम्पोन या मासिक धर्म कप का उपयोग करना चाहिए? "," आपके पास पीरियड रक्त से निपटने के तरीके के बारे में कई विकल्प हैं। आपको यह जानने के लिए थोड़ा प्रयोग करने की आवश्यकता हो सकती है कि आपके लिए कौन सा काम सबसे अच्छा है कुछ लड़कियां केवल एक ही विधि का उपयोग करती हैं और अन्य विभिन्न तरीकों के बीच स्विच करती हैं। \n "+
+                 "\uF0B7  लड़कियां पैड का उपयोग तब करती हैं जब वे पहली बार अपनी अवधि प्राप्त करते हैं। पैड कॉटन से बने होते हैं और बहुत से विभिन्न आकारों और आकारों में आते हैं। उनके पास चिपचिपी स्ट्रिप्स होती हैं जो अंडरवियर से जुड़ी होती हैं। \n "+
+                "\uF0B7  लड़कियों को टैम्पोन पैड्स की तुलना में अधिक सुविधाजनक लगते हैं, खासकर जब खेलकूद या तैराकी करते हैं। एक टैम्पोन एक कॉटन प्लग होता है, जिसे एक लड़की अपनी योनि में डालती है। ज्यादातर टैम्पोन एक ऐप्लिकेटर के साथ आते हैं, जो टैम्पॉन को गाइड करता है। टैम्पोन रक्त को अवशोषित करता है। एक टैम्पोन को 8 घंटे से अधिक समय के लिए न छोड़ें क्योंकि इससे आपके गंभीर संक्रमण का खतरा बढ़ सकता है जिसे टॉक्सिक शॉक सिंड्रोम कहा जाता है। \n _ "+
+                        "\uF0B7 लड़कियां मासिक धर्म के कप को पसंद करती हैं। अधिकांश मासिक धर्म के कप सिलिकॉन से बने होते हैं। मासिक धर्म के कप का उपयोग करने के लिए, एक लड़की इसे अपनी योनि में डालती है। जब तक वह इसे खाली नहीं करती तब तक यह खून रखती है।","Q8"));
+        quesAnsList.add(new QuesAns("कितना खून निकलता है?", "यह बहुत अधिक रक्त की तरह लग सकता है, लेकिन एक लड़की आमतौर पर पूरी अवधि के दौरान केवल कुछ बड़े चम्मच खून खो देती है। अधिकांश लड़कियों को अपने पैड, टैम्पोन या मासिक धर्म कप को 3 से बदलने की आवश्यकता होती है। 6 बार एक दिन। ","Q9"));
+        quesAnsList.add(new QuesAns("क्या मेरे जीवन के बाकी हिस्सों के लिए अवधि होगी?", "जब महिलाएं रजोनिवृत्ति (लगभग 45‒55 वर्ष) तक पहुंचती हैं, तो उनकी अवधि स्थायी रूप से बंद हो जाएगी। गर्भवती होने पर महिलाओं को भी एक अवधि नहीं होगी","Q10"));
+        quesAnsList.add(new QuesAns("पीएमएस क्या है?", "पीएमएस (प्रीमेंस्ट्रुअल सिंड्रोम) वह है जब किसी लड़की में भावनात्मक और शारीरिक लक्षण होते हैं जो उसकी अवधि से पहले या उसके दौरान होते हैं। इन लक्षणों में मूड, उदासी, चिंता, सूजन और मुँहासे शामिल हो सकते हैं। लक्षण इसके बाद जाते हैं। किसी अवधि के पहले कुछ दिन। ","Q11"));
+        quesAnsList.add(new QuesAns("मैं क्रैम्प के बारे में क्या कर सकता हूं?", "कई लड़कियों को अपने पीरियड के साथ ऐंठन होती है, खासकर पहले कुछ दिनों में। अगर ऐंठन आपको परेशान करती है, तो आप कोशिश कर सकते हैं: \n" +
+                "आपके पेट पर \uF0B7 गर्म हीटिंग पैड \n "+
+                "\uF0B7  (एडविल, मोट्रिन या स्टोर ब्रांड) या नेपरोक्सन (अलेव या स्टोर ब्रांड) \n" +
 
-        quesAnsList.add(new QuesAns("Do Periods Happen Regularly When Menstruation Starts?","For the first few years after a girl starts her period, it may not come regularly. This is normal at first. By about 2–3 years after her first period, a girl's periods should be coming around once every 4–5 weeks.","Q5"));
-        quesAnsList.add(new QuesAns("Can  you get Pregnant as Soon as your Period Starts?","Yes, a girl can get pregnant as soon as her period starts. A girl can even get pregnant right before her very first period. This is because a girl's hormones might already be active. The hormones may have led to ovulation and the building of the uterine wall. If a girl has sex, she can get pregnant, even though she has never had a period.","Q6"));
-        quesAnsList.add(new QuesAns("How Long Do Periods Last?","Periods usually last about 5 days. But a period can be shorter or last longer.","Q7"));
-        quesAnsList.add(new QuesAns("Should I Use a Pad, Tampon, or Menstrual Cup?","You have many choices about how to deal with period blood. You may need to experiment a bit to find which works best for you. Some girls use only one method and others switch between different methods.\n" +
-                "\uF0B7Most girls use pads when they first get their period. Pads are made of cotton and come in lots of different sizes and shapes. They have sticky strips that attach to the underwear.\n" +
-                "\uF0B7Many girls find tampons more convenient than pads, especially when playing sports or swimming. A tampon is a cotton plug that a girl puts into her vagina. Most tampons come with an applicator that guides the tampon into place. The tampon absorbs the blood. Don't leave a tampon in for more than 8 hours because this can increase your risk of a serious infection called Toxic shock syndrome. \n" +
-                "\uF0B7Some girls prefer a menstrual cup. Most menstrual cups are made of silicone. To use a menstrual cup, a girl inserts it into her vagina. It holds the blood until she empties it.","Q8"));
-        quesAnsList.add(new QuesAns("How Much Blood Comes Out?","It may look like a lot of blood, but a girl usually only loses a few tablespoons of blood during the whole period. Most girls need to change their pad, tampon, or menstrual cup about 3‒6 times a day.","Q9"));
-        quesAnsList.add(new QuesAns("Will I Have Periods for the Rest of My Life?","When women reach menopause (around age 45‒55), their periods will permanently stop. Women also won't have a period while they are Pregnant","Q10"));
-        quesAnsList.add(new QuesAns("What Is PMS?","PMS (premenstrual syndrome) is when a girl has emotional and physical symptoms that happen before or during her period. These symptoms can include moodiness, sadness, anxiety, bloating, and acne. The symptoms go away after the first few days of a period.","Q11"));
-        quesAnsList.add(new QuesAns("What Can I Do About Cramps?","Many girls have cramps with their period, especially in the first few days. If cramps bother you, you can try:\n" +
-                "\uF0B7a warm heating pad on your belly\n" +
-                "\uF0B7taking ibuprofen (Advil, Motrin, or store brand) or naproxen (Aleve or store brand)\n" +
-                "\n" +
-                "Most girls don't have any problems with their periods. But call your doctor if you:\n" +
-                "\uF0B7are 15 and haven't started your period\n" +
-                "\uF0B7have had your period for more than 2 years and it still doesn't come regularly (about every 4–5 weeks)\n" +
-                "\uF0B7have bleeding between periods\n" +
-                "\uF0B7have severe cramps that don't get better with ibuprofen or naproxen \n" +
-                "\uF0B7have very heavy bleeding (bleeding that goes through a pad or tampon faster than every 1 hour)\n" +
-                "\uF0B7have periods that last more than about a week\n" +
-                "\uF0B7have severe PMS that gets in the way of your everyday activities","Q12"));
-        quesAnsList.add(new QuesAns("Can having sex during periods leads to pregnancy?","\uF0B7A common fertility myth is that a woman can’t get pregnant when she’s on her period. While the odds for pregnancy are lower on the days, you’re on your period, they aren’t zero.","Q13"));
-        quesAnsList.add(new QuesAns("How does conception occur?","\uF0B7The ability to conceive requires the meeting of a male’s sperm with a female’s egg. Once a woman’s ovary releases an egg, the egg lives for only between 12 and 24 hours. The male sperm can live for about three days.\n" +
-                "\uF0B7The typical female cycle is 28 days. Day 1 is when she starts her period. A woman typically ovulates around day 14 (but it could be around days 12, 13, or 14) ovulation is when a woman’s ovary releases an egg for fertilization. If a sperm is available in the uterus, pregnancy can occur.\n" +
-                "\uF0B7Ovulation can vary based on a woman’s cycle. Some women have a longer cycle of around 35 days between periods. Ovulation would then happen around day 21. Women with a shorter cycle of 21 days ovulate around the seventh day","Q15"));
+                "ज्यादातर लड़कियों को अपने पीरियड्स को लेकर कोई समस्या नहीं होती है। लेकिन अपने डॉक्टर को कॉल करें यदि आप: \n" +
+                "\uF0B7को आपकी अवधि 2 वर्ष से अधिक हो गई थी और यह अभी भी नियमित रूप से नहीं आती है (लगभग हर 4-5 सप्ताह में) \n" +
+                        "\uF0B7पीरियड्स के बीच खून बह रहा  \n" +
+                "\uF0B7 गंभीर ऐंठन जो इबुप्रोफेन या नेप्रोक्सन के साथ बेहतर नहीं होता है \n" +
+                "\uF0B7 बहुत भारी रक्तस्राव (रक्तस्राव जो हर 1 घंटे की तुलना में एक पैड या टैम्पोन से तेजी से गुजरता है) \n "+
+                "\uF0B7 अवधियाँ जो लगभग एक सप्ताह से अधिक समय तक चलती हैं \n" +
+                "\uF0B7 गंभीर पीएमएस जो आपकी रोजमर्रा की गतिविधियों के रास्ते में आता है", "Q12"));
+        quesAnsList.add(new QuesAns("पीरियड्स के दौरान सेक्स करने से गर्भावस्था हो सकती है?", "\uF0B7 सामान्य प्रजनन मिथक यह है कि एक महिला गर्भवती नहीं हो सकती है जब वह अपने पीरियड्स पर होती है। जबकि गर्भावस्था की संभावनाएं कम होती हैं, तो आप अपने पीरियड्स पर हैं। , वे शून्य नहीं हैं। "," Q13 "));
+        quesAnsList.add(new QuesAns("गर्भाधान कैसे हो सकता है?", "गर्भ धारण करने की क्षमता को एक महिला के अंडे के साथ पुरुष के शुक्राणु के मिलने की आवश्यकता होती है। एक बार एक महिला के अंडाशय से एक अंडा निकलता है, अंडा केवल 12 और 24 घंटों के लिए रहता है। पुरुष शुक्राणु जीवित रह सकता है। लगभग तीन दिनों के लिए। \n "+
+                "\uF0B7 सामान्य महिला चक्र 28 दिन का होता है। दिन 1 तब होता है जब वह अपना पीरियड शुरू करती है। एक महिला आम तौर पर दिन 14 के आस-पास ओव्यूलेट करती है (लेकिन यह लगभग 12, 13 या 14 दिनों का हो सकता है) ओव्यूलेशन तब होता है जब एक महिला का अंडाशय के लिए एक अंडा जारी होता है। निषेचन। यदि गर्भाशय में एक शुक्राणु उपलब्ध है, तो गर्भावस्था हो सकती है। \n "+
+                "\uF0B7 एक महिला के चक्र के आधार पर भिन्न हो सकता है। कुछ महिलाओं में पीरियड्स के बीच लगभग चार दिनों का लंबा चक्र होता है। तब ओव्यूलेशन 21 दिन के आसपास होगा। 21 दिनों के छोटे चक्र वाली महिलाएं सातवें दिन के आसपास ओव्यूलेट करती हैं", "Q15" ));
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         quesAnsAdapter = new QuesAnsAdapter(quesAnsList);

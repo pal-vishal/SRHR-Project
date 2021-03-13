@@ -21,7 +21,6 @@ public class LastScreen extends Fragment implements RecyclerViewClick {
     private RecyclerView rv_list;
     LSAdapter lsAdapter;
     List<ButtonNames> options;
-
     View rootView;
 
     @Nullable
@@ -35,11 +34,11 @@ public class LastScreen extends Fragment implements RecyclerViewClick {
         rv_list.setAdapter(lsAdapter);
 
 
-        options.add(new ButtonNames("About Us"));
-        options.add(new ButtonNames("Your Learning"));
-        options.add(new ButtonNames("Contact Us"));
-        options.add(new ButtonNames("Invite Friends"));
-        options.add(new ButtonNames("Frequently Asked Questions"));
+        options.add(new ButtonNames("हमारे बारे में"));
+        options.add(new ButtonNames("आपकी सीख"));
+        options.add(new ButtonNames("संपर्क करें"));
+        options.add(new ButtonNames("मित्रों को आमंत्रित करें"));
+        options.add(new ButtonNames("बार बार पूछे जाने वाले प्रश्न"));
 
 
 

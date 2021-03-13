@@ -13,7 +13,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
-        android:text="Abortion"
+        android:text="गर्भपात"
         android:textSize="20sp"
         app:backgroundTint="@color/shrine_pink_900"
         app:layout_constraintBottom_toBottomOf="parent"

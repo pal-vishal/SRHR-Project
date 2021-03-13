@@ -65,19 +65,19 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
                 gotourl("https://instagram.com/actionindia76?igshid=7xup04jevgbd");
             }
         });
-        categories.add("PUBERTY");
-        categories.add("MENSTRUATION");
-        categories.add("SAFE SEX & STD");
-        categories.add("RAPE");
-        categories.add("PCPNDT");
-        categories.add("Abortion");
-        categories.add("PWDVA ACT");
-        categories.add("FAQ");
+        categories.add("यौवन");
+        categories.add("माहवारी");
+        categories.add("सेफ सेक्स एंड एसटीडी");
+        categories.add("बलात्कार");
+        categories.add("पीसीपीएनडीटी");
+        categories.add("गर्भपात");
+        categories.add("PWDVA योजना");
+        categories.add("सामान्य प्रश्न");
 
         toolbar = rootView.findViewById(R.id.main_toolbar);
         navController = Navigation.findNavController(getActivity(), R.id.fragment);
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("Select Category");
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("श्रेणी चुनना");
         setHasOptionsMenu(true);
         return rootView;
     }

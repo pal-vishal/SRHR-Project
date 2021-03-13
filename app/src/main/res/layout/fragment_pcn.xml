@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
-        android:text="PCPNDT (Pre-Conception Pre-natal Diagnostic Technique) Act"
+        android:text="पीसीपीएनडीटी (पूर्व गर्भाधान पूर्व प्रसवोत्तर निदान तकनीक) अधिनियम"
         android:textAllCaps="true"
         android:textColor="#fff"
         android:textColorLink="#000"
@@ -32,55 +32,7 @@
         android:layout_marginTop="24dp"
         android:paddingLeft="10dp"
         android:scrollbars="vertical"
-        android:text="The sex ratio is defined as the ratio of the number of males to number of females in a population set. It is internationally expressed per 100 females but in India, it is expressed as per 1000 males. This means that there is an imbalance between the two sexes i.e. there are less women per thousand males.
-
-According to the 2011 census, for every 1000 boys, there are only 918 girls. The child sex ratio in India has been on the decline since 1991 and the worst since independence.
-According to the 1991 census, there were 945 girls for every 1000 boys and in 2001,927 girls for every 1000 boys.
-
-Keeping this in mind, PCPNDT (Pre-Conception Pre-natal Diagnostic Technique) act was constituted to control or rather ban the use of technology i.e. ultra sound to determine the sex of the fetus before its birth. This Act of the Parliament of India was enacted to stop female foeticides and address the declining sex ratio in India.
-To know more, please go to the link below:
-https://pndt.gov.in/WriteReadData/l892s/PC-PNDT%20ACT-1994.pdf
-
-
-Beti Bachao – Beti Padhao
-The Prime minister recently launched the Beti Bachao – Beti Padhao (BBBP) campaign to reverse the dwindling numbers. Beti Bachao, Beti Padhao (Save girl child, educate girl child) is a Government of India scheme that aims to generate awareness and improve the efficiency of delivery of welfare services meant for the girl child and women. The scheme was initiated with an initial corpus of Rs 100 crore. It is being implemented in the 100 Gender critical districts.
-To know more, please go to the link below
-https://wcd.nic.in/sites/default/files/About_BBBP_Scheme.pdf
-
-Sukanya Samriddhi Yojana
-Part of the Beti Bachao, Beti Padhao campaign, this Government of India backed saving scheme is targeted at the parents of girl children. The programme encourages them to build a fund for future education and marriage expenses for their female child. Parents can start saving early as the minimum amount of investment required is small, and the account is active for 14 years from the date of opening the account.
-The main highlights of the scheme are:
-●It has tax benefits and an interest rate of 9.1%.
-●It is meant for girls under the age of 10 years.
-●You can start the account with just Rs 1,000.
-●The maximum deposit is Rs 1,50,000 per year.
-To know more, please go to the link below
-http://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89#
-
-
-
-Baalika Samriddhi Yojana
-This scheme was launched by the Government of India on 15th August 1997 and covered all girls born on or after 15 August 1997 who are below the poverty line. Aimed at offering financial aid to girl children born on or after 15 August 1997, the schemes key objectives include improving the enrolment and retention of the girl child in schools and helping raise daughters until their legal age of marriage. If successful, young girls will get an education that will help them with jobs to generate a steady income.
-To know more, please go to the link below
-https://pmmodiyojana.in/balika-samridhi-yojana/
-
-CBSE Scholarship Scheme/Policy for Girl Education
-The scheme envisages providing scholarships to the meritorious single girl student, who is the only child of the parent and has passed CBSE Class X examination with 60% or more and is continuing her further education of Class XI and XII. The scheme is aimed to recognize the efforts of the parents in promoting education among girls and provide encouragement to meritorious students.
-For more information, please go to the link below:
-https://transformingindia.mygov.in/scheme/cbse-single-girl-child-scholarship/#intro
-
-
-Delhi Ladli Scheme
-Delhi Ladli Scheme was launched by the Government of NCT of Delhi on 01.01.2008 for empowerment of girl children born in Delhi.
-Its objectives are:
-•	To empower the girl child socially and economically.
-•	To promote birth registration of girl children.
-•	To control female foeticide and to improve sex ratio.
-•	To end discrimination against the girl child.
-•	To promote education among the girls and reduce school drop-out rate of girl students.
-•	To provide security to girl students for their higher education.
-To know more, please go to the link below,
-http://www.wcddel.in/streesakti_3Ladli.html"
+        android:text="जनसंख्या अनुपात में महिलाओं की संख्या के अनुपात में पुरुषों की संख्या के अनुपात के रूप में लिंग अनुपात को परिभाषित किया गया है। यह अंतरराष्ट्रीय स्तर पर प्रति 100 महिलाओं पर व्यक्त किया जाता है, लेकिन भारत में इसे 1000 पुरुषों के अनुसार व्यक्त किया जाता है। इसका मतलब है कि दोनों लिंगों के बीच असंतुलन है यानी प्रति हजार पुरुषों पर महिलाएं कम हैं। 2011 की जनगणना के अनुसार, प्रत्येक 1000 लड़कों के लिए, केवल 918 लड़कियां हैं। भारत में बाल लिंगानुपात 1991 के बाद से घट रहा है और आजादी के बाद सबसे खराब है। 1991 की जनगणना के अनुसार, प्रत्येक 1000 लड़कों के लिए 945 लड़कियाँ थीं और 2001 में हर 1000 लड़कों के लिए लड़कियों की संख्या थी। इसे ध्यान में रखते हुए, पीसीपीएनडीटी (प्री-कंसेप्शन प्री-नेटल डायग्नोस्टिक टेक्नीक) अधिनियम का गठन किया गया था ताकि इसके जन्म से पहले भ्रूण के लिंग का निर्धारण करने के लिए प्रौद्योगिकी के उपयोग यानी अल्ट्रा साउंड पर नियंत्रण या प्रतिबंध लगाया जा सके। भारत की संसद के इस अधिनियम को कन्या भ्रूण हत्या को रोकने और भारत में गिरते लिंगानुपात को दूर करने के लिए लागू किया गया था। अधिक जानकारी के लिए, कृपया नीचे दिए गए लिंक पर जाएं: https://pndt.gov.in/WriteReadData/l892s/PC-PNDT%20ACT-1994.pdf बेटी बचाओ - बेटी पढाओ प्रधानमंत्री ने हाल ही में बेटी बचाओ - बेटी पढाओ का शुभारंभ किया (BBBP) घटती संख्या को उलटने के लिए अभियान। बेटी बचाओ, बेटी पढाओ (बेटी बचाओ, बेटी पढ़ाओ) भारत सरकार की एक योजना है जिसका उद्देश्य जागरूकता पैदा करना और बालिकाओं और महिलाओं के लिए कल्याणकारी सेवाओं के वितरण की दक्षता में सुधार करना है। इस योजना की शुरुआत 100 करोड़ रुपये के प्रारंभिक कोष से की गई थी। इसे 100 लिंग महत्वपूर्ण जिलों में लागू किया जा रहा है। अधिक जानकारी के लिए, कृपया नीचे दिए गए लिंक पर जाएं https://wcd.nic.in/sites/default/files/About_BBBP_Scheme.pdf सुकन्या समृद्धि योजना बेटी बचाओ, बेटी पढाओ अभियान का हिस्सा, यह भारत सरकार की बचत योजना है। बच्चियों के माता-पिता को निशाना बनाया। कार्यक्रम उन्हें अपनी महिला बच्चे के लिए भविष्य की शिक्षा और शादी के खर्च के लिए एक फंड बनाने के लिए प्रोत्साहित करता है। माता-पिता जल्दी बचत करना शुरू कर सकते हैं क्योंकि आवश्यक निवेश की न्यूनतम राशि छोटी है, और खाता खोलने की तारीख से 14 साल तक खाता सक्रिय है। योजना की मुख्य विशेषताएं हैं: ● इसमें कर लाभ और 9.1% की ब्याज दर है। ● यह 10 साल से कम उम्र की लड़कियों के लिए है। ● आप केवल 1,000 रुपये से खाता शुरू कर सकते हैं। ● अधिकतम जमा 1,50,000 रुपये प्रति वर्ष है। अधिक जानकारी के लिए, कृपया नीचे दिए गए लिंक पर जाएं http://www.nsiindia.gov.in/InternalPage.aspx?Id_Pk=89# बालिका समृद्धि योजना यह योजना भारत सरकार द्वारा 15 वीं 1997 को शुरू की गई थी और इसमें सभी लड़कियों को शामिल किया गया था। 15 अगस्त 1997 को या उसके बाद पैदा हुए जो गरीबी रेखा से नीचे हैं। 15 अगस्त 1997 को या उसके बाद पैदा हुई बालिकाओं को वित्तीय सहायता प्रदान करने के उद्देश्य से, योजनाओं के मुख्य उद्देश्यों में स्कूलों में बालिकाओं के नामांकन और प्रतिधारण में सुधार करना और बेटियों की शादी की कानूनी उम्र तक मदद करना शामिल है। सफल होने पर, युवा लड़कियों को एक शिक्षा मिलेगी जो उन्हें स्थिर आय उत्पन्न करने के लिए नौकरियों में मदद करेगी। अधिक जानकारी के लिए, कृपया https://pmmodiyojana.in/balika-samridhi-yojana/ CBSE छात्रवृत्ति योजना / नीति के नीचे दिए गए लिंक पर जाएं। यह योजना मेधावी एकल छात्राओं को छात्रवृत्ति प्रदान करने की परिकल्पना करती है, जो एकमात्र बच्चा है माता-पिता और सीबीएसई दसवीं कक्षा की परीक्षा 60% या उससे अधिक के साथ उत्तीर्ण की है और कक्षा XI और XII की अपनी आगे की शिक्षा जारी है। इस योजना का उद्देश्य लड़कियों के बीच शिक्षा को बढ़ावा देने के लिए माता-पिता के प्रयासों को पहचानना और मेधावी छात्रों को प्रोत्साहन प्रदान करना है। अधिक जानकारी के लिए, कृपया नीचे दिए गए लिंक पर जाएं: https://transformingindia.mygov.in/scheme/cbse-single-girl-child-scholarship/#intro दिल्ली लाडली योजना दिल्ली लाडली योजना दिल्ली सरकार की एनसीटी द्वारा शुरू की गई थी। दिल्ली में जन्मी बालिकाओं के सशक्तीकरण के लिए 01.01.2008 को। इसके उद्देश्य हैं: • बालिकाओं को सामाजिक और आर्थिक रूप से सशक्त बनाना। • बालिकाओं के जन्म पंजीकरण को बढ़ावा देना। • कन्या भ्रूण हत्या को नियंत्रित करना और लिंगानुपात में सुधार करना। • बालिकाओं के प्रति भेदभाव को समाप्त करना। • लड़कियों के बीच शिक्षा को बढ़ावा देना और छात्राओं के स्कूल छोड़ने की दर को कम करना। • छात्राओं को उनकी उच्च शिक्षा के लिए सुरक्षा प्रदान करना। अधिक जानकारी के लिए, कृपया नीचे दिए गए लिंक पर जाएं, http://www.wcddel.in/streesakti_3Ladli.html"
         android:textColor="#fff"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"

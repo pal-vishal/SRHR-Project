@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Clinics"></activity>
+        <activity android:name=".model.LanguageActivity"></activity>
+        <activity android:name=".model.Language" />
+        <activity android:name=".Clinics" />
         <activity android:name=".pwdvaact" />
         <activity android:name=".Email" />
         <activity android:name=".Splash">
@@ -25,8 +27,7 @@
         </activity> <!-- <activity android:name=".safesex" /> -->
         <activity android:name=".LastScreenMenu.TermsConditions" />
         <activity android:name=".Videos" />
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
