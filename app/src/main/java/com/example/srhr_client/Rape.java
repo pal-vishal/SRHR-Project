@@ -36,8 +36,8 @@ public class Rape extends Fragment {
         quesAnsList = new ArrayList<>();
 
         quesAnsList.add(new QuesAns(getString(R.string.ques1Rape),getString(R.string.ans1Rape), "Q1. "));
-//        quesAnsList.add(new QuesAns(getString(R.string.ques2Rape), getString(R.string.ans2Rape), "Q2. "));
-        quesAnsList.add(new QuesAns(getString(R.string.ques3Rape), getString(R.string.ans3Rape), "Q3. "));
+    // quesAnsList.add(new QuesAns(getString(R.string.ques2Rape), getString(R.string.ans2Rape), "Q2. "));
+        quesAnsList.add(new QuesAns(getString(R.string.ques3Rape), getString(R.string.ans3Rape), "Q2. "));
 
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         quesAnsAdapter = new QuesAnsAdapter(quesAnsList);

@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="अक्सर पूछे जाने वाले\n प्रशन"
+        android:text="@string/activity_faq_content"
         android:gravity="center_horizontal"
         android:textColor="#000"
         android:textSize="36sp"

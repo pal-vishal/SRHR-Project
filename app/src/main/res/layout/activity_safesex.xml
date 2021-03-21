@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="सेफ सेक्स और एसटीडी"
+        android:text="@string/safeSex"
         android:textColor="#fff"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"

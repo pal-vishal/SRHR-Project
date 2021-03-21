@@ -7,10 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.akexorcist.localizationactivity.ui.LocalizationActivity;
 import com.example.srhr_client.MainActivity;
 import com.example.srhr_client.R;
 
-public class LanguageActivity extends AppCompatActivity {
+public class LanguageActivity extends LocalizationActivity {
 
     Button hindiButton , englishButton;
 
@@ -26,8 +27,8 @@ public class LanguageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(LanguageActivity.this , MainActivity.class);
-
+                setLanguage("hi", "In");
+                Intent intent = new Intent(LanguageActivity.this,MainActivity.class);
                 startActivity(intent);
 
             }
@@ -39,11 +40,9 @@ public class LanguageActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(LanguageActivity.this , MainActivity.class);
-
+                setLanguage("en", "US");
+                Intent intent = new Intent(LanguageActivity.this,MainActivity.class);
                 startActivity(intent);
-
-
             }
         });
 

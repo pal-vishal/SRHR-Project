@@ -10,13 +10,16 @@ import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.akexorcist.localizationactivity.core.LanguageSetting.setLanguage
 import com.example.srhr_client.databinding.FragmentLoginSignupBinding
 import com.google.android.gms.tasks.Task
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.firebase.auth.AuthResult
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.fragment_login_signup.*
+import java.util.*
 
 class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
 
@@ -25,6 +28,8 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
     private lateinit var email: String
     private lateinit var password: String
     private lateinit var mobile: String
+
+    private lateinit var materialAlertDialogBuilder: MaterialAlertDialogBuilder
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -43,6 +48,13 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
         if (currentUser != null) {
             findNavController().navigate(R.id.action_loginSignUpFragment_to_faqChoices3)
         }
+    }
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -66,7 +78,7 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
                     } else {
                         Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
                         Toast.makeText(
-                            context, "Authentication failed.",
+                            requireContext(), "Authentication failed.",
                             Toast.LENGTH_SHORT
                         ).show()
 
@@ -90,7 +102,7 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
                         } else {
                             Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
                             Toast.makeText(
-                                context, "Authentication failed.",
+                                requireContext(), "Authentication failed.",
                                 Toast.LENGTH_SHORT
                             ).show()
 
@@ -103,5 +115,31 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
             }
 
         }
+
+        materialAlertDialogBuilder = MaterialAlertDialogBuilder(requireContext())
+        imageView5.setOnClickListener {
+            //  showDialog()
+        }
+
     }
+
+    private fun showDialog() {
+        materialAlertDialogBuilder
+            .setTitle("Choose Language")
+            .setMessage("Click to choose any language")
+            .setPositiveButton("English")
+            { dialog, _ ->
+
+                setLanguage(requireContext(), Locale("en", "US"))
+                //  Intent(this,MainActivity::class.java)
+                dialog.dismiss()
+            }
+            .setNegativeButton("Hindi") { dialog, _ ->
+                setLanguage(requireContext(), Locale("hi", "In"))
+                dialog.dismiss()
+            }
+            .show()
+    }
+
+
 }

@@ -11,10 +11,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity android:name=".model.LanguageActivity"></activity>
-        <activity android:name=".model.Language" />
+
         <activity android:name=".Clinics" />
         <activity android:name=".pwdvaact" />
         <activity android:name=".Email" />

@@ -34,11 +34,11 @@ public class LastScreen extends Fragment implements RecyclerViewClick {
         rv_list.setAdapter(lsAdapter);
 
 
-        options.add(new ButtonNames("हमारे बारे में"));
-        options.add(new ButtonNames("आपकी सीख"));
-        options.add(new ButtonNames("संपर्क करें"));
-        options.add(new ButtonNames("मित्रों को आमंत्रित करें"));
-        options.add(new ButtonNames("बार बार पूछे जाने वाले प्रश्न"));
+        options.add(new ButtonNames(getString(R.string.aboutUs)));
+        options.add(new ButtonNames(getString(R.string.yourLearning)));
+        options.add(new ButtonNames(getString(R.string.contactUs)));
+        options.add(new ButtonNames(getString(R.string.inviteFriends)));
+        options.add(new ButtonNames(getString(R.string.faq)));
 
 
 

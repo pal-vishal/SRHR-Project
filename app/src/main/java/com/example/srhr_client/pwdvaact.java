@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class pwdvaact extends AppCompatActivity {
+import com.akexorcist.localizationactivity.ui.LocalizationActivity;
+
+public class pwdvaact extends LocalizationActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

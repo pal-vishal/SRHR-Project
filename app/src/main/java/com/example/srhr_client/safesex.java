@@ -35,7 +35,7 @@ public class safesex extends Fragment {
 
         quesAnsList.add(new QuesAns(getString(R.string.ques1Safe), getString(R.string.ans1Safe), "Q1. "));
         quesAnsList.add(new QuesAns(getString(R.string.ques2Safe), getString(R.string.ans2Safe), "Q2. "));
-        quesAnsList.add(new QuesAns(getString(R.string.ques3Safe), getString(R.string.ans3Safe), "Q3. "));
+        quesAnsList.add(new QuesAns(getString(R.string.ques3Safe), getString(R.string.asns3Safe), "Q3. "));
         quesAnsList.add(new QuesAns(getString(R.string.ques4Safe), getString(R.string.ans4Safe), "Q4. "));
         quesAnsList.add(new QuesAns(getString(R.string.ques5Safe), getString(R.string.ans5Safe), "Q5. "));
         quesAnsList.add(new QuesAns(getString(R.string.ques6Safe), getString(R.string.ans6Safe), "Q6. "));

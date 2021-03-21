@@ -65,19 +65,19 @@ public class FaqChoices extends Fragment implements RecyclerViewClick {
                 gotourl("https://instagram.com/actionindia76?igshid=7xup04jevgbd");
             }
         });
-        categories.add("यौवन");
-        categories.add("माहवारी");
-        categories.add("सेफ सेक्स एंड एसटीडी");
-        categories.add("बलात्कार");
-        categories.add("पीसीपीएनडीटी");
-        categories.add("गर्भपात");
-        categories.add("PWDVA योजना");
-        categories.add("सामान्य प्रश्न");
+        categories.add(getString(R.string.pubertyHeading));
+        categories.add(getString(R.string.menstHeading));
+        categories.add(getString(R.string.safeSex));
+        categories.add(getString(R.string.rapeHeading));
+        categories.add(getString(R.string.pcpHeading));
+        categories.add(getString(R.string.abortionHeading));
+        categories.add(getString(R.string.pwdHeading));
+        categories.add(getString(R.string.faqHeading));
 
         toolbar = rootView.findViewById(R.id.main_toolbar);
         navController = Navigation.findNavController(getActivity(), R.id.fragment);
         ((AppCompatActivity) getActivity()).setSupportActionBar(toolbar);
-        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("श्रेणी चुनना");
+        ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(getString(R.string.selectCategory));
         setHasOptionsMenu(true);
         return rootView;
     }

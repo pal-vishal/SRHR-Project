@@ -4,9 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.akexorcist.localizationactivity.ui.LocalizationActivity;
 import com.example.srhr_client.R;
 
-public class TermsConditions extends AppCompatActivity {
+public class TermsConditions extends LocalizationActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

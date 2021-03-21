@@ -4,29 +4,29 @@
 
     <item
         android:id="@+id/aboutUs"
-        android:title="हमारे बारे में"
+        android:title="@string/aboutUs"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/contactUs"
-        android:title="संपर्क करें"
+        android:title="@string/contactUs"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/inviteFriend"
-        android:title="मित्रों को आमंत्रित करें"
+        android:title="@string/inviteFriends"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/query"
-        android:title="हमें लिखें"
+        android:title="@string/writeToUs"
         app:showAsAction="never"/>
     <item
         android:id="@+id/clinics"
-        android:title="दिशा क्लीनिक"
+        android:title="@string/disha"
         app:showAsAction="never"/>
     <item
         android:id="@+id/videos"
-        android:title="वीडियो"
+        android:title="@string/video"
         app:showAsAction="never"/>
 </menu>
