@@ -51,8 +51,7 @@
             android:text="@string/enterOtp"
             android:textColor="@color/textColorPrimary"
             android:textSize="22sp"
-
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+            app:layout_constraintBottom_toTopOf="@+id/editTextOtp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"

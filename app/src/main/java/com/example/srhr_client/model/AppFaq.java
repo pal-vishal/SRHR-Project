@@ -43,12 +43,12 @@ public class AppFaq extends Fragment {
 
         quesAnsList.add(new QuesAns(getString(R.string.que9Faq), getString(R.string.ans9Faq), "Q9"));
         quesAnsList.add(new QuesAns(getString(R.string.que10Faq), getString(R.string.ans10Faq), "Q10"));
-        quesAnsList.add(new QuesAns(getString(R.string.que11Faq), getString(R.string.ans11Faq), "Q11"));
+       // quesAnsList.add(new QuesAns(getString(R.string.que11Faq), getString(R.string.ans11Faq), "Q11"));
 
         quesAnsList.add(new QuesAns(getString(R.string.que12Faq), getString(R.string.ans12Faq)
-                , "Q12"));
+                , "Q10"));
         quesAnsList.add(new QuesAns(getString(R.string.que13Faq), getString(R.string.ans13Faq)
-                , "Q13"));
+                , "Q11"));
 
         /*
         quesAnsList.add(new QuesAns("क्या मैं सिर्फ डॉक्टर के पास जाने के बजाय फार्मेसी से गर्भपात की गोली ले सकता हूं? \n " , " नहीं, डॉक्टर से बात करना बहुत महत्वपूर्ण है क्योंकि बिना देखरेख के गोलियां लेना जीवन के लिए खतरा पैदा कर सकता है। अपने चिकित्सक से बात करें, जो आपका मार्गदर्शन करेगा और आपको सर्वोत्तम संभव देखभाल देगा। इसके अलावा, फार्मासिस्ट के लिए आपको डॉक्टर के पर्चे के बिना गोलियां बेचना अवैध है\n","Q14"));
