@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="बार बार पूछे जाने वाले प्रश्न"
+        android:text="@string/faqHeading"
         android:textColor="#fff"
         android:textSize="30sp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
