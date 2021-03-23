@@ -16,7 +16,7 @@
     <string name="safeSex">सेफ सेक्स एंड एसटीडी</string>
     <string name="rapeHeading">बलात्कार</string>
     <string name="pcpHeading">पीसीपीएनडीटी</string>
-    <string name="abortionHeading">गर्भपात</string>
+
     <string name="pwdHeading">PWDVA योजना</string>
     <string name="faqHeading">सामान्य प्रश्</string>
     <string name="selectCategory">श्रेणी चुनना</string>
@@ -267,4 +267,6 @@ https://www.criminaldefenselawyer.com/resources/criminal-defense/sex-crimes/stat
 
     <string name="que13Faq">"क्या मुझे गर्भपात कराने के लिए किसी की अनुमति की आवश्यकता है? \n"</string>
     <string name="ans13Faq">" यदि आप एक वयस्क हैं, तो आपको गर्भपात कराने के लिए किसी की अनुमति की आवश्यकता नहीं है। यह आपका शरीर है, इसलिए यह आपकी पसंद है \""</string>
+
+    <string name="abortionHeading">गर्भपात</string>
 </resources>
