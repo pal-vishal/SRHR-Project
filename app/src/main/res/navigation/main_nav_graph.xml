@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/loginSignUpFragment"
-        android:name="com.example.srhr_client.LoginSignUpFragment"
+        android:name="com.social.actionindia.LoginSignUpFragment"
         android:label="LoginSignUpFragment">
         <action
             android:id="@+id/action_loginSignUpFragment_to_personalInfoFragment"
@@ -23,7 +23,7 @@
     </fragment>
     <fragment
         android:id="@+id/personalInfoFragment"
-        android:name="com.example.srhr_client.PersonalInfoFragment"
+        android:name="com.social.actionindia.PersonalInfoFragment"
         android:label="PersonalInfoFragment">
 
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/otpFragment"
-        android:name="com.example.srhr_client.OtpFragment"
+        android:name="com.social.actionindia.OtpFragment"
         android:label="OtpFragment">
         <argument
             android:name="mobileNo"
@@ -48,7 +48,7 @@
     </fragment>
     <fragment
         android:id="@+id/faqChoices3"
-        android:name="com.example.srhr_client.FaqChoices"
+        android:name="com.social.actionindia.FaqChoices"
         android:label="FaqChoices">
         <action
             android:id="@+id/action_faqChoices3_to_rape"
@@ -92,16 +92,16 @@
     </fragment>
     <fragment
         android:id="@+id/rape"
-        android:name="com.example.srhr_client.Rape"
+        android:name="com.social.actionindia.Rape"
         android:label="Rape" />
     <fragment
         android:id="@+id/puberty"
-        android:name="com.example.srhr_client.Puberty"
+        android:name="com.social.actionindia.Puberty"
         android:label="activity_puberty"
         tools:layout="@layout/activity_puberty" />
     <fragment
         android:id="@+id/lastScreen"
-        android:name="com.example.srhr_client.LastScreen"
+        android:name="com.social.actionindia.LastScreen"
         android:label="activity_faq_choices"
         tools:layout="@layout/activity_faq_choices">
         <action
@@ -113,64 +113,64 @@
     </fragment>
     <activity
         android:id="@+id/termsConditions2"
-        android:name="com.example.srhr_client.TermsConditions"
+        android:name="com.social.actionindia.TermsConditions"
         android:label="activity_terms_conditions"
         tools:layout="@layout/activity_terms_conditions" />
     <fragment
         android:id="@+id/abortion"
-        android:name="com.example.srhr_client.Abortion"
+        android:name="com.social.actionindia.Abortion"
         android:label="Abortion" />
     <fragment
         android:id="@+id/safesex"
-        android:name="com.example.srhr_client.safesex"
+        android:name="com.social.actionindia.safesex"
         android:label="activity_safesex"
         tools:layout="@layout/activity_safesex" />
     <fragment
         android:id="@+id/PCNPDT"
-        android:name="com.example.srhr_client.PCNPDT"
+        android:name="com.social.actionindia.PCNPDT"
         android:label="PCNPDT" />
     <fragment
         android:id="@+id/appFaq"
-        android:name="com.example.srhr_client.model.AppFaq"
+        android:name="com.social.actionindia.model.AppFaq"
         android:label="fragment_app_faq"
         tools:layout="@layout/fragment_app_faq" />
     <fragment
         android:id="@+id/aboutUs"
-        android:name="com.example.srhr_client.LastScreenMenu.AboutUs"
+        android:name="com.social.actionindia.LastScreenMenu.AboutUs"
         android:label="activity_about_us"
         tools:layout="@layout/activity_about_us" />
     <fragment
         android:id="@+id/contactUs"
-        android:name="com.example.srhr_client.LastScreenMenu.ContactUs"
+        android:name="com.social.actionindia.LastScreenMenu.ContactUs"
         android:label="activity_contact_us"
         tools:layout="@layout/activity_contact_us" />
     <fragment
         android:id="@+id/inviteFriend"
-        android:name="com.example.srhr_client.LastScreenMenu.InviteFriend"
+        android:name="com.social.actionindia.LastScreenMenu.InviteFriend"
         android:label="InviteFriend" />
     <fragment
         android:id="@+id/menstruation"
-        android:name="com.example.srhr_client.Menstruation"
+        android:name="com.social.actionindia.Menstruation"
         android:label="fragment_menstruation"
         tools:layout="@layout/fragment_menstruation" />
     <activity
         android:id="@+id/email"
-        android:name="com.example.srhr_client.Email"
+        android:name="com.social.actionindia.Email"
         android:label="activity_email"
         tools:layout="@layout/activity_email" />
     <activity
         android:id="@+id/pwdvaact"
-        android:name="com.example.srhr_client.pwdvaact"
+        android:name="com.social.actionindia.pwdvaact"
         android:label="activity_pwdvaact"
         tools:layout="@layout/activity_pwdvaact" />
     <activity
         android:id="@+id/clinics2"
-        android:name="com.example.srhr_client.Clinics"
+        android:name="com.social.actionindia.Clinics"
         android:label="activity_clinics"
         tools:layout="@layout/activity_clinics" />
     <activity
         android:id="@+id/splash"
-        android:name="com.example.srhr_client.Splash"
+        android:name="com.social.actionindia.Splash"
         android:label="activity_splash"
         tools:layout="@layout/activity_splash" />
 </navigation>

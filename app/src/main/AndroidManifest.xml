@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.srhr_client">
+    package="com.social.actionindia">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,21 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".model.LanguageActivity"></activity>
+        <activity android:name="com.social.actionindia.model.LanguageActivity"></activity>
 
-        <activity android:name=".Clinics" />
-        <activity android:name=".pwdvaact" />
-        <activity android:name=".Email" />
-        <activity android:name=".Splash">
+        <activity android:name="com.social.actionindia.Clinics" />
+        <activity android:name="com.social.actionindia.pwdvaact" />
+        <activity android:name="com.social.actionindia.Email" />
+        <activity android:name="com.social.actionindia.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- <activity android:name=".safesex" /> -->
-        <activity android:name=".LastScreenMenu.TermsConditions" />
-        <activity android:name=".Videos" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.social.actionindia.LastScreenMenu.TermsConditions" />
+        <activity android:name="com.social.actionindia.Videos" />
+        <activity android:name="com.social.actionindia.MainActivity" />
     </application>
 
 </manifest>
