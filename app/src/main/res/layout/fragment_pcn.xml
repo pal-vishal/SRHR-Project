@@ -34,7 +34,7 @@
         android:scrollbars="vertical"
         android:text="@string/pcnpdt_text"
         android:textColor="#fff"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />

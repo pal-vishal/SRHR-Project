@@ -313,7 +313,7 @@ If you face any problem then we recommend you consult a physician. </string>
     <string name="aboutUsContent3">Action India founded in 1976, has taken many big and small path breaking initiatives by grassroots women, which clearly indicates the strong potential in women becoming the agents of change in the process of social transformation. Action India sustains a balance between community based work and the universal struggle for women’s rights. While protesting against wrongs, Action India simultaneously creates alternative modes of self-help, self-esteem and self-assertion.</string>
     <string name="aboutUsContent4">WE WORK TO</string>
     <string name="aboutUsContent5">Eliminate Discrimination\n Facilitate access to education and health care\n Enhance access to livelihood and economic rights\n Enable participation in governance and development</string>
-    <string name="aboutUsContent6">For any further information about Action India<a href="http://www.action-india.org/">please visit our website</a></string>
+    <string name="aboutUsContent6">For any further information about Action India <a href="http://www.action-india.org/">please visit our website</a></string>
     <string name="activity_clinic_heading">Rashtriya Kishor Swasthya Karyakram (RKSK)</string>
     <string name="address">Address</string>
     <string name="contact_us_content">action india\n5/27A, Jangpura B,\nNew Delhi-110014\nPh: 91-011-24377470\nPh.:91-011-24374785\n www.action-india.org</string>
@@ -370,7 +370,7 @@ If you have any questions or suggestions regarding our Terms and Conditions, ple
     <string name="ques1Rape">What is rape?</string>
 
     <string name="ans3Rape" formatted="false">Following are the different types of rape:
-1) Minor wrap\n
+1) Minor rape\n
 2) Gang rape\n
 3) Marital rape\n
 4) increase\n
