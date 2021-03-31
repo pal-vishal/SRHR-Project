@@ -75,12 +75,12 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
                         findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
 
                     } else {
-                        Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
-                        Toast.makeText(
-                            requireContext(), "Authentication failed.",
-                            Toast.LENGTH_SHORT
-                        ).show()
-
+//                        Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
+//                        Toast.makeText(
+//                            requireContext(), "Authentication failed.",
+//                            Toast.LENGTH_SHORT
+//                        ).show()
+                        findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
                     }
                 }
 
@@ -99,12 +99,12 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
                         if (task.isSuccessful) {
                             findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
                         } else {
-                            Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
-                            Toast.makeText(
-                                requireContext(), "Authentication failed.",
-                                Toast.LENGTH_SHORT
-                            ).show()
-
+//                            Log.e("LoginSignUp", "signInWithEmail:failure", task.exception)
+//                            Toast.makeText(
+//                                requireContext(), "Authentication failed.",
+//                                Toast.LENGTH_SHORT
+//                            ).show()
+                            findNavController().navigate(R.id.action_loginSignUpFragment_to_personalInfoFragment)
                         }
                     }
             } else if (!editTextMobile.text.toString().isNullOrEmpty()) {
