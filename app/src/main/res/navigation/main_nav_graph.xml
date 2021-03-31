@@ -20,6 +20,9 @@
             app:destination="@id/faqChoices3"
             app:popUpTo="@id/main_nav_graph"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginSignUpFragment_to_termsConditions2"
+            app:destination="@id/termsConditions2" />
     </fragment>
     <fragment
         android:id="@+id/personalInfoFragment"

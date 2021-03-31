@@ -64,6 +64,11 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
         mobile = editTextMobile.text.toString()
         Log.e("strings", "null" + email + password + mobile)
 
+        binding.textView4.setOnClickListener {
+            findNavController().navigate(R.id.action_loginSignUpFragment_to_termsConditions2)
+
+        }
+
 
         binding.button2.setOnClickListener {
             auth.createUserWithEmailAndPassword(
