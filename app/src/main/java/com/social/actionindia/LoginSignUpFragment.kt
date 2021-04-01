@@ -68,8 +68,6 @@ class LoginSignUpFragment : Fragment(R.layout.fragment_login_signup) {
             findNavController().navigate(R.id.action_loginSignUpFragment_to_termsConditions2)
 
         }
-
-
         binding.button2.setOnClickListener {
             auth.createUserWithEmailAndPassword(
                 binding.textEmail.text.toString(),
