@@ -22,7 +22,7 @@ import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.util.concurrent.TimeUnit;
 
-public class OtpFragment extends Fragment {
+public class  OtpFragment extends Fragment {
     private String verificationId;
     private FirebaseAuth mAuth;
     private String phoneNumber;
