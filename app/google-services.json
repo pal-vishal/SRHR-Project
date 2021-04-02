@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "323674802022-9uld0ppag8mtcnlv8qmfo579lqo55f7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.social.actionindia",
+            "certificate_hash": "c5a8763f3c563590752bced543b8b55de3f49ff6"
+          }
+        },
+        {
           "client_id": "323674802022-jfbf80sdb80e390mqeqqq5bej95bp5ar.apps.googleusercontent.com",
           "client_type": 3
         }
