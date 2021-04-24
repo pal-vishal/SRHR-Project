@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.social.actionindia">
+    package="com.naya.mainapk">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,21 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.social.actionindia.model.LanguageActivity"></activity>
+        <activity android:name="com.naya.mainapk.model.LanguageActivity"></activity>
 
-        <activity android:name="com.social.actionindia.Clinics" />
-        <activity android:name="com.social.actionindia.pwdvaact" />
-        <activity android:name="com.social.actionindia.Email" />
-        <activity android:name="com.social.actionindia.Splash">
+        <activity android:name="com.naya.mainapk.Clinics" />
+        <activity android:name="com.naya.mainapk.pwdvaact" />
+        <activity android:name="com.naya.mainapk.Email" />
+        <activity android:name="com.naya.mainapk.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- <activity android:name=".safesex" /> -->
-        <activity android:name="com.social.actionindia.LastScreenMenu.TermsConditions" />
-        <activity android:name="com.social.actionindia.Videos" />
-        <activity android:name="com.social.actionindia.MainActivity" />
+        <activity android:name="com.naya.mainapk.LastScreenMenu.TermsConditions" />
+        <activity android:name="com.naya.mainapk.Videos" />
+        <activity android:name="com.naya.mainapk.MainActivity" />
     </application>
 
 </manifest>
